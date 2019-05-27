@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+body{
+  width: 100%;
+  height: 100%;
+  background: #F9FAFC;
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+select, input {
+  border:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+}
+
+$point-color1: #2EB3D1;
+$point-color2: #95C2CC;
+$point-color3: #FF6652;
+$gray: #C5CBD4;
+
+.wrapper{
+  display: inline-flex;
+  height: 100%;
+}
+
+.sideMenuContainer{
+  width: 280px;
+  height: auto;
+  background-color: #fff;
+  padding: 30px;
+  .logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    .divider{
+      width: 1px;
+      height: 15px;
+      margin: 0 15px;
+      background: #C9C9C9;
+    }
+  }
+  ul{
+    margin-top: 60px;
+    li{
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      font-size: 15px;
+      color: $gray;
+      font-weight: 700;
+      img{
+        margin-right: 20px;
+      }
+      .selected{
+        color: $point-color1;
+      }
+    }
+  }
+}
+
+.mainContentContainer{
+  width: 100%;
+  height: auto;
+  margin: 30px;
+  .topContent{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    .left{
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+    .right{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .selectBox{
+      font-size: 16px;
+      font-weight: 700;
+      width: 80px;
+      height: 22px;
+      background: url("../img/down_arrow_ico.svg") no-repeat center right;
+    }
+    .textBox{
+      font-size: 12px;
+      font-weight: 400;
+      padding: 10px 15px;
+      background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
+      border-radius: 35px;
+    }
+    .dateBox{
+      display: flex;
+      align-items: center;
+      .date{
+        margin: 0 10px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+  .headText{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 1100px;
+    .left{
+      width: 50%;
+      font-size: 35px;
+      font-weight: 700;
+      display: flex;
+    }
+    .right{
+      width: 50%;
+      justify-content: flex-end;
+      color: #8E8E95;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .dateContainer{
+    ul{
+      width: 1100px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .box{
+      background: #fff;
+      padding: 30px;
+      text-align: center;
+      box-sizing: border-box;
+      h1{
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 25px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .headText{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        .left{
+          width: 50%;
+        }
+        .right{
+          width: 50%;
+          align-items: center;
+          justify-content: flex-end;
+          .option{
+            display: flex;
+            align-items: center;
+            .dot{
+              width: 12px;
+              height: 12px;
+              border-radius: 12px;
+            }
+            .text{
+              font-size: 12px;
+              font-weight: 700;
+              color: #000;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
