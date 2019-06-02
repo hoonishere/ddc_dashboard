@@ -26,6 +26,19 @@
     width: 100%;
 }
 
+.box-1_5{
+    width: 75%;
+}
+
+
+.box-2{
+    width: 50%;
+}
+
+.box-3{
+    width: 33.3%;
+}
+
 .box-4{
     width: 25%;
 }
@@ -36,4 +49,12 @@
 
 .marginRight30{
     margin-right: 30px;
+}
+
+.marginBottom20{
+    margin-bottom: 20px;
+}
+
+.table-divide-6{
+    width: 16.6%;
 }

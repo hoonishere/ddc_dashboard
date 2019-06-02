@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
 
-body{
+html,body{
   width: 100%;
   height: 100%;
   background: #F9FAFC;
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 select, input {
@@ -21,6 +25,10 @@ $point-color1: #2EB3D1;
 $point-color2: #95C2CC;
 $point-color3: #FF6652;
 $gray: #C5CBD4;
+
+.displayBlock{
+  display: block!important;
+}
 
 .wrapper{
   display: inline-flex;
@@ -60,6 +68,32 @@ $gray: #C5CBD4;
         color: $point-color1;
       }
     }
+  }
+  .subMenu{
+    ul{
+      margin-top: 0;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 25px;
+      border-top: 1px solid $gray;
+      border-bottom: 1px solid $gray;
+      li{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        &:last-child{
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+      }
+      .selected{
+        color: $point-color1;
+      }
+    }
+  }
+  .loginBox{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
   }
 }
 
@@ -116,6 +150,26 @@ $gray: #C5CBD4;
       font-size: 35px;
       font-weight: 700;
       display: flex;
+      .detailBox{
+        .sortingBox{
+          margin: 20px 0;
+          ul{
+            display: flex;
+            li{
+              border: 1px solid #D4DADF;
+              box-sizing: border-box;
+              padding: 15px 10px;
+              font-size: 12px;
+              border-radius: 30px;
+              font-weight: 700;
+            }
+          }
+        }
+        .moreInfo{
+          font-size: 12px;
+          font-weight: 700;
+        }
+      }
     }
     .right{
       width: 50%;
@@ -173,8 +227,144 @@ $gray: #C5CBD4;
               margin-left: 10px;
             }
           }
+          p{
+            color: #000;
+            font-size: 25px;
+            font-weight: 300;
+          }
         }
       }
+      .barGraphBox{
+        width: 100%;
+        .barGraph{
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        h2{
+          font-size: 13px;
+          font-weight: 700;
+          text-align: left;
+        }
+        h3{
+          font-size: 15px;
+          font-weight: 300;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+.table{
+  width: 100%;
+  box-sizing: border-box;
+  ul{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    li{
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      padding: 18px 0;
+      border-bottom: 1px solid $gray;
+    }
+    .head{
+      font-size: 12px;
+      font-weight: 700;
+      border-bottom: 0;
+    }
+  }
+}
+
+/*팝업*/
+.popup{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  z-index: 9999999999;
+  position: fixed;
+  top: 0;
+  .box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    .optionList{
+      h1{
+        font-size: 16px;
+        font-weight: 700;
+      }
+      ul{
+        display: flex;
+        margin-top: 20px;
+        li{
+          width: 100px;
+          padding: 15px 0;
+          text-align: center;
+          border: 1px solid #E3E9ED;
+          border-radius: 30px;
+          font-size: 16px;
+          font-weight: 700;
+          margin-right: 20px;
+          &:last-child{
+            margin-right: 0;
+          }
+        }
+        .selected{
+          background: $point-color1;
+          border: 1px solid $point-color1;
+          color: #fff;
+        }
+      }
+    }
+    .bookLogoBox{
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px;
+    }
+  }
+}
+/*//팝업*/
+
+
+.buttonBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 50px;
+  .left{
+    padding: 20px 60px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 30px;
+    transition: all .2s ease-in-out;
+    border-radius: 50px;
+    &:hover{
+      background: $point-color1;
+      border: 1px solid $point-color1;
+      color: #fff;
+    }
+  }
+  .right{
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    border-radius: 50px;
+    &:hover{
+      background: $point-color1;
+      border: 1px solid $point-color1;
+      color: #fff;
     }
   }
 }

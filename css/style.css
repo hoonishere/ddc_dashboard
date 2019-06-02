@@ -1,11 +1,16 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
-body {
+html, body {
   width: 100%;
   height: 100%;
   background: #F9FAFC;
   padding: 0;
   margin: 0;
   font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 select, input {
@@ -15,6 +20,10 @@ select, input {
   appearance: none;
   -ms-appearance: none;
   /* get rid of default appearance for IE8, 9 and 10*/
+}
+
+.displayBlock {
+  display: block !important;
 }
 
 .wrapper {
@@ -56,6 +65,30 @@ select, input {
 }
 .sideMenuContainer ul li .selected {
   color: #2EB3D1;
+}
+.sideMenuContainer .subMenu ul {
+  margin-top: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-top: 1px solid #C5CBD4;
+  border-bottom: 1px solid #C5CBD4;
+}
+.sideMenuContainer .subMenu ul li {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.sideMenuContainer .subMenu ul li:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.sideMenuContainer .subMenu ul .selected {
+  color: #2EB3D1;
+}
+.sideMenuContainer .loginBox {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
 }
 
 .mainContentContainer {
@@ -114,6 +147,24 @@ select, input {
   font-weight: 700;
   display: flex;
 }
+.mainContentContainer .headText .left .detailBox .sortingBox {
+  margin: 20px 0;
+}
+.mainContentContainer .headText .left .detailBox .sortingBox ul {
+  display: flex;
+}
+.mainContentContainer .headText .left .detailBox .sortingBox ul li {
+  border: 1px solid #D4DADF;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  font-size: 12px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.mainContentContainer .headText .left .detailBox .moreInfo {
+  font-size: 12px;
+  font-weight: 700;
+}
 .mainContentContainer .headText .right {
   width: 50%;
   justify-content: flex-end;
@@ -170,6 +221,139 @@ select, input {
   font-weight: 700;
   color: #000;
   margin-left: 10px;
+}
+.mainContentContainer .dateContainer .box .headText .right p {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+}
+.mainContentContainer .dateContainer .box .barGraphBox {
+  width: 100%;
+}
+.mainContentContainer .dateContainer .box .barGraphBox .barGraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mainContentContainer .dateContainer .box .barGraphBox h2 {
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+}
+.mainContentContainer .dateContainer .box .barGraphBox h3 {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.table {
+  width: 100%;
+  box-sizing: border-box;
+}
+.table ul {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+.table ul li {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  padding: 18px 0;
+  border-bottom: 1px solid #C5CBD4;
+}
+.table ul .head {
+  font-size: 12px;
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+/*팝업*/
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999999999;
+  position: fixed;
+  top: 0;
+}
+.popup .box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.popup .box .optionList h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.popup .box .optionList ul {
+  display: flex;
+  margin-top: 20px;
+}
+.popup .box .optionList ul li {
+  width: 100px;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #E3E9ED;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.popup .box .optionList ul li:last-child {
+  margin-right: 0;
+}
+.popup .box .optionList ul .selected {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+.popup .box .bookLogoBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+/*//팝업*/
+.buttonBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.buttonBox .left {
+  padding: 20px 60px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  color: #000;
+  margin-right: 30px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+}
+.buttonBox .left:hover {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+.buttonBox .right {
+  padding: 20px 60px;
+  box-sizing: border-box;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+}
+.buttonBox .right:hover {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>ico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="90 0 153.63961 26.3603897 180 90 153.63961 153.63961 90 180 26.3603897 153.63961 0 90 26.3603897 26.3603897"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.index_시전체_활동량" transform="translate(-1130.000000, -255.000000)">
+            <g id="활동목표성공율" transform="translate(1042.000000, 225.000000)">
+                <g id="ico" transform="translate(88.000000, 30.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2EB3D1" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)">
+                        <g transform="translate(50.428571, 64.285714)">
+                            <path d="M62.0705714,12.8571429 C58.5262857,12.8571429 55.642,9.98142857 55.642,6.42857143 C55.642,2.87571429 58.5262857,0 62.0705714,0 C65.6234286,0 68.4991429,2.87571429 68.4991429,6.42857143 C68.4991429,9.98142857 65.6234286,12.8571429 62.0705714,12.8571429" id="Fill-1" stroke="none" fill="#000000" fill-rule="evenodd"></path>
+                            <path d="M17.0705714,12.8571429 C13.5262857,12.8571429 10.642,9.98142857 10.642,6.42857143 C10.642,2.87571429 13.5262857,0 17.0705714,0 C20.6234286,0 23.4991429,2.87571429 23.4991429,6.42857143 C23.4991429,9.98142857 20.6234286,12.8571429 17.0705714,12.8571429" id="Fill-3" stroke="none" fill="#000000" fill-rule="evenodd"></path>
+                            <path d="M78.142,32.1428571 C78.142,32.1428571 66.5748571,51.4285714 39.5705714,51.4285714 C12.5705714,51.4285714 0.999142857,32.1428571 0.999142857,32.1428571" id="Stroke-5" stroke="#000000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M39.5705714,6.42857143 L39.5705714,16.2" id="Stroke-7" stroke="#000000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
