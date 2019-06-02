@@ -28,7 +28,6 @@ select, input {
 
 .wrapper {
   display: inline-flex;
-  height: 100%;
 }
 
 .sideMenuContainer {
@@ -86,7 +85,7 @@ select, input {
   color: #2EB3D1;
 }
 .sideMenuContainer .loginBox {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   padding-bottom: 30px;
 }

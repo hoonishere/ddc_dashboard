@@ -32,7 +32,6 @@ $gray: #C5CBD4;
 
 .wrapper{
   display: inline-flex;
-  height: 100%;
 }
 
 .sideMenuContainer{
@@ -91,7 +90,7 @@ $gray: #C5CBD4;
     }
   }
   .loginBox{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding-bottom: 30px;
   }
