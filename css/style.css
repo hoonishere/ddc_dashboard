@@ -22,6 +22,25 @@ select, input {
   /* get rid of default appearance for IE8, 9 and 10*/
 }
 
+.borderTopNone {
+  border-top: none !important;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #C5CBD4;
+  margin-top: 30px;
+}
+
+.textBox {
+  width: 100%;
+  border: 1px solid #C5CBD4;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
 .displayBlock {
   display: block !important;
 }
@@ -289,6 +308,10 @@ select, input {
   font-size: 16px;
   font-weight: 700;
 }
+.popup .box .optionList p {
+  font-size: 15px;
+  text-align: center;
+}
 .popup .box .optionList ul {
   display: flex;
   margin-top: 20px;
@@ -315,6 +338,23 @@ select, input {
   display: flex;
   justify-content: space-between;
   padding: 50px 50px;
+}
+.popup .agreementTextBox {
+  font-size: 12px;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.popup .checkBoxSection {
+  padding-top: 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.popup .checkBoxSection .checkBox {
+  border: 1px solid #C5CBD4;
+  width: 20px;
+  height: 20px;
 }
 
 /*//팝업*/
@@ -354,5 +394,62 @@ select, input {
   border: 1px solid #2EB3D1;
   color: #fff;
 }
+
+.buttonFull {
+  width: 100%;
+  padding: 20px 60px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  color: #000;
+  margin-right: 30px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+  text-align: center;
+}
+.buttonFull:hover {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+
+/*로그인*/
+.loginSection {
+  width: 100%;
+}
+.loginSection ul {
+  display: flex;
+}
+.loginSection ul li {
+  width: 50%;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+.loginSection ul li h2 {
+  font-size: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.loginSection ul li:last-child {
+  margin-right: 0;
+}
+.loginSection ul li .textBox {
+  width: 100%;
+  border: 1px solid #C5CBD4;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.loginSection .findPasswordSection {
+  font-size: 15px;
+  margin-top: 30px;
+}
+.loginSection .findPasswordSection a {
+  color: #000000;
+}
+.loginSection .findPasswordSection a:hover {
+  color: #2EB3D1;
+}
+
+/*//로그인*/
 
 /*# sourceMappingURL=style.css.map */
