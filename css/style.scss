@@ -25,6 +25,9 @@ $point-color1: #2EB3D1;
 $point-color2: #95C2CC;
 $point-color3: #FF6652;
 $gray: #C5CBD4;
+$gray2: #666666;
+$white: #ffffff;
+$black: #000000;
 
 .borderTopNone{
   border-top: none!important;
@@ -463,3 +466,50 @@ $gray: #C5CBD4;
   }
 }
 /*//로그인*/
+
+
+/*기관정보*/
+.centerInfoContainer{
+  width: 100%;
+  .box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .pagination{
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center;
+    a{
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+  ul{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    .head{
+      background: $gray2;
+      color: $white;
+      font-size: 12px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px;
+    }
+    li{
+      display: flex;
+      width: 100%;
+      padding: 0 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      background: $white;
+      font-size: 12px;
+      &:last-child{
+        border-right: none;
+      }
+    }
+  }
+}
+/*//기관정보*/

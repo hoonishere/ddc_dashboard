@@ -451,5 +451,51 @@ select, input {
 }
 
 /*//로그인*/
+/*기관정보*/
+.centerInfoContainer {
+  width: 100%;
+}
+.centerInfoContainer .box {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.centerInfoContainer .pagination {
+  font-size: 12px;
+  padding-top: 30px;
+  text-align: center;
+}
+.centerInfoContainer .pagination a {
+  color: #000000;
+  text-decoration: underline;
+}
+.centerInfoContainer ul {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.centerInfoContainer ul .head {
+  background: #666666;
+  color: #ffffff;
+  font-size: 12px;
+  border-right: 1px solid #333;
+  margin: 0;
+  padding: 15px;
+}
+.centerInfoContainer ul li {
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+  margin: 20px 0;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+  background: #ffffff;
+  font-size: 12px;
+}
+.centerInfoContainer ul li:last-child {
+  border-right: none;
+}
+
+/*//기관정보*/
 
 /*# sourceMappingURL=style.css.map */
