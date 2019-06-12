@@ -33,6 +33,14 @@ $black: #000000;
   border-top: none!important;
 }
 
+.borderBottomNone{
+  border-bottom: none!important;
+}
+
+.borderLeftNone{
+  border-left: none!important;
+}
+
 .divider{
   width: 100%;
   height: 1px;
@@ -50,6 +58,10 @@ $black: #000000;
 
 .displayBlock{
   display: block!important;
+}
+
+.displayFlex{
+  display: flex!important;
 }
 
 .wrapper{
@@ -146,6 +158,7 @@ $black: #000000;
     }
     .textBox{
       font-size: 12px;
+      width: 130px;
       font-weight: 400;
       padding: 10px 15px;
       background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
@@ -158,6 +171,23 @@ $black: #000000;
         margin: 0 10px;
         font-size: 16px;
         font-weight: 700;
+      }
+    }
+    .buttonSmall{
+      width: 200px;
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
       }
     }
   }
@@ -471,6 +501,7 @@ $black: #000000;
 /*기관정보*/
 .centerInfoContainer{
   width: 100%;
+  max-width: 1100px;
   .box {
     background: #fff;
     padding: 30px;
@@ -486,6 +517,43 @@ $black: #000000;
       text-decoration: underline;
     }
   }
+  .buttonBox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px;
+    .left{
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
+      }
+    }
+    .right{
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
+      }
+    }
+  }
   ul{
     display: flex;
     border-bottom: 1px solid #ccc;
@@ -498,7 +566,20 @@ $black: #000000;
       padding: 15px;
     }
     li{
+      a{
+        color: $black;
+        text-decoration: underline;
+        &:hover{
+          color: $point-color1;
+        }
+      }
+      .checkBox{
+        border: 1px solid $gray;
+        width: 20px;
+        height: 20px;
+      }
       display: flex;
+      align-items: center;
       width: 100%;
       padding: 0 15px;
       margin: 20px 0;
@@ -513,3 +594,206 @@ $black: #000000;
   }
 }
 /*//기관정보*/
+
+/*명부*/
+.childrenListSortingBox{
+  .buttonBox{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px;
+    .left{
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
+      }
+    }
+    .right{
+      width: 100%;
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
+      }
+    }
+  }
+  .selectBox{
+    font-size: 16px;
+    font-weight: 700;
+    width: 80px;
+    height: 22px;
+    background: url("../img/down_arrow_ico.svg") no-repeat center right;
+  }
+  .textBox{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
+    border-radius: 35px;
+  }
+}
+/*//명부*/
+
+
+/*팝업*/
+.popupAddChildren{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  z-index: 9999999999;
+  position: fixed;
+  top: 0;
+  .box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    .bookLogoBox{
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px;
+    }
+    .buttonFull{
+      width: 100%;
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      text-align: center;
+      &:hover{
+        background: $point-color1;
+        border: 1px solid $point-color1;
+        color: #fff;
+      }
+    }
+  }
+  .agreementTextBox{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .checkBoxSection{
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    .checkBox{
+      border: 1px solid $gray;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .inputFile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .childrenListContainer{
+    height: 200px;
+    overflow: scroll;
+    ul{
+      display: inline-flex;
+      border-bottom: 1px solid #ccc;
+      .head{
+        background: $gray2;
+        color: $white;
+        font-size: 12px;
+        border-right: 1px solid #333;
+        margin: 0;
+        padding: 15px;
+      }
+      li{
+        a{
+          color: $black;
+          text-decoration: underline;
+          &:hover{
+            color: $point-color1;
+          }
+        }
+        .checkBox{
+          border: 1px solid $gray;
+          width: 20px;
+          height: 20px;
+        }
+        display: flex;
+        align-items: center;
+        width: 85.25px;
+        padding: 0 15px;
+        margin: 20px 0;
+        justify-content: center;
+        border-right: 1px solid #ccc;
+        background: $white;
+        font-size: 12px;
+        &:last-child{
+          border-right: none;
+        }
+      }
+    }
+  }
+  .confirmTeacherListContainer{
+    height: 200px;
+    overflow: scroll;
+    ul{
+      display: flex;
+      border-bottom: 1px solid #ccc;
+      .head{
+        background: $gray2;
+        color: $white;
+        font-size: 12px;
+        border-right: 1px solid #333;
+        margin: 0;
+        padding: 15px;
+      }
+      li{
+        a{
+          color: $black;
+          text-decoration: underline;
+          &:hover{
+            color: $point-color1;
+          }
+        }
+        .checkBox{
+          border: 1px solid $gray;
+          width: 20px;
+          height: 20px;
+        }
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 15px;
+        margin: 20px 0;
+        justify-content: center;
+        border-right: 1px solid #ccc;
+        background: $white;
+        font-size: 12px;
+        &:last-child{
+          border-right: none;
+        }
+      }
+    }
+  }
+}
+/*//팝업*/
