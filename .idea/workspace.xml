@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc246c4-5ce7-4f0c-943a-e4734eaf2d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add_admin_popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_info_popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/center_info_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/change_password_popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/children_list_add_children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_info_popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirm_teacher_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invite_children_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/invite_teacher_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notice_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notice_write_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teacher_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_sorting_popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/data_sorting_popup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,15 +29,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invite_children_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
-              <caret line="355" column="15" lean-forward="true" selection-start-line="320" selection-start-column="4" selection-end-line="355" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -88,6 +61,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_sort.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-562">
+              <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+              <folding>
+                <element signature="e#3372#3378#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_sorting_popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notice.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="743">
@@ -96,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notice_detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="913">
@@ -113,15 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
               <caret line="262" column="25" lean-forward="true" selection-start-line="262" selection-start-column="25" selection-end-line="262" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/change_password_popup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="342" column="22" lean-forward="true" selection-start-line="337" selection-start-column="16" selection-end-line="342" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -167,7 +153,6 @@
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/data.html" />
         <option value="$PROJECT_DIR$/data_person.html" />
-        <option value="$PROJECT_DIR$/data_sorting_popup.html" />
         <option value="$PROJECT_DIR$/data_sort.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/register_agreement.html" />
@@ -198,6 +183,7 @@
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/notice_detail.html" />
+        <option value="$PROJECT_DIR$/data_sorting_popup.html" />
       </list>
     </option>
   </component>
@@ -218,11 +204,6 @@
             <path>
               <item name="ddc_dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddc_dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddc_dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddc_dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27404000" />
+    <option name="totallyTimeSpent" value="27545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1018" y="23" width="1505" height="1247" extended-state="0" />
@@ -322,13 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="140" column="52" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sorting_popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="266" column="15" lean-forward="true" selection-start-line="208" selection-start-column="4" selection-end-line="266" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -418,17 +392,6 @@
             <element signature="e#9773#9779#0" expanded="true" />
             <element signature="e#9779#9785#0" expanded="true" />
             <element signature="e#9785#9791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_sort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
-          <folding>
-            <element signature="e#3372#3378#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,6 +532,24 @@
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="100" column="20" lean-forward="true" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#3372#3378#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_sorting_popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="241" column="26" selection-start-line="241" selection-start-column="26" selection-end-line="241" selection-end-column="26" />
         </state>
       </provider>
     </entry>
