@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DDC 대시보드</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+</head>
+<body>
+<!--wrapper-->
+<div class="wrapper">
+    <!--사이드 메뉴-->
+    <div class="sideMenuContainer">
+        <!--로고-->
+        <div class="logo">
+            <img src="img/logo_ex.svg"/>
+            <div class="divider"></div>
+            서울시청
+        </div>
+        <!--//로고-->
+        <!--메뉴-->
+        <ul>
+            <li>
+                <img src="img/ico1_selected.svg">
+                <span class="selected">조회</span>
+            </li>
+            <div class="subMenu">
+                <ul>
+                    <li class="selected">
+                        데이터 조회
+                    </li>
+                    <li>
+                        리스트 조회
+                    </li>
+                </ul>
+            </div>
+            <li>
+                <img src="img/ico2.svg">
+                <span>비교/통계</span>
+            </li>
+            <li>
+                <img src="img/ico3.svg">
+                <span>식단</span>
+            </li>
+            <li>
+                <img src="img/ico4.svg">
+                <span>관리</span>
+            </li>
+            <li>
+                <img src="img/ico5.svg">
+                <span>설정</span>
+            </li>
+        </ul>
+        <!--//메뉴-->
+        <!--로그인 박스-->
+        <div class="loginBox">
+            로그인
+        </div>
+        <!--//로그인 박스-->
+    </div>
+    <!--//사이드 메뉴-->
+    <!--콘텐츠-->
+    <div class="mainContentContainer">
+        <!--헤드텍스트-->
+        <div class="headText">
+            <div class="left">
+                로그인
+            </div>
+        </div>
+        <!--//헤드텍스트-->
+        <!--데이터-->
+        <div class="dateContainer">
+            <!--row 1-->
+            <ul>
+                <!--1-->
+                <div class="box loginSection box-1 marginRight30">
+                    <ul>
+                        <li>
+                            <h2>로그인</h2>
+                            <input type="text" class="textBox" placeholder="아이디를 입력"/>
+                        </li>
+                        <li>
+                            <h2>비밀번호</h2>
+                            <input type="password" class="textBox" placeholder="********"/>
+                        </li>
+                    </ul>
+                    <!--비번찾기-->
+                    <div class="findPasswordSection">
+                        <a href="#">회원가입</a> . <a href="#">아이디 찾기</a> . <a href="#">비밀번호 찾기</a>
+                    </div>
+                    <!--//비번찾기-->
+                    <!--버튼-->
+                    <div class="buttonBox">
+                        <a href="#">
+                            <div class="left">
+                                로그인
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right">
+                                기관 등록
+                            </div>
+                        </a>
+                    </div>
+                    <!--//버튼-->
+                </div>
+                <!--//1-->
+                <!--2-->
+            </ul>
+            <!--//row 1-->
+        </div>
+        <!--//데이터-->
+    </div>
+    <!--//콘텐츠-->
+    <!--팝업-->
+    <div class="popup">
+        <div class="box">
+            <!--1-->
+            <div class="optionList">
+                <h1>관리자 등록</h1>
+            </div>
+            <!--//1-->
+            <!--2-->
+            <div class="optionList marginTop30">
+                <div class="">
+                    <input type="text" class="textBox marginTop15" placeholder="담당자명">
+                    <input type="text" class="textBox borderTopNone" placeholder="담당자 휴대폰 번호 (숫자만 입력)">
+                    <a href="#">
+                        <div class="buttonFull marginTop15">인증번호 전송</div>
+                    </a>
+                    <input type="text" class="textBox marginTop15" placeholder="인증번호 6자리">
+                    <a href="#">
+                        <div class="buttonFull marginTop15">확인</div>
+                    </a>
+                    <input type="text" class="textBox marginTop15" placeholder="담당자 이메일 주소">
+                </div>
+            </div>
+            <!--//2-->
+            <!--버튼-->
+            <div class="buttonBox marginTop0">
+                <!--왼쪽 버튼-->
+                <a href="#">
+                    <div class="left">
+                        이전
+                    </div>
+                </a>
+                <!--//왼쪽 버튼-->
+                <!--오른쪽 버튼-->
+                <a href="#">
+                    <div class="right">
+                        완료
+                    </div>
+                </a>
+                <!--//오른쪽 버튼-->
+            </div>
+            <!--//버튼-->
+        </div>
+    </div>
+    <!--//팝업-->
+</div>
+<!--//wrapper-->
+</body>
+</html>
