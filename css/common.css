@@ -43,6 +43,34 @@
     width: 25%;
 }
 
+.width30{
+    width: 30%;
+}
+
+.width50{
+    width: 50%;
+}
+
+.width70{
+    width: 70% !important;
+}
+
+.width100{
+    width: 100%!important;
+}
+
+.width200{
+    width: 200%!important;
+}
+
+.alignItemsCenter{
+    align-items: center;
+}
+
+.textAlignLeft{
+    text-align: left;
+}
+
 .marginTop15{
     margin-top: 15px;
 }
@@ -55,10 +83,26 @@
     margin-right: 30px;
 }
 
+.marginBottom15{
+    margin-bottom: 15px;
+}
+
 .marginBottom20{
     margin-bottom: 20px;
 }
 
+.paddingHorizontal20{
+    padding: 0 20px;
+}
+
 .table-divide-6{
     width: 16.6%;
+}
+
+.justifyContentFlexStart{
+    justify-content: flex-start!important;
+}
+
+.fontSize16{
+    font-size: 16px!important;
 }
