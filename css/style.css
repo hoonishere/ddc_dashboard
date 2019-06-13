@@ -778,5 +778,229 @@ select, input {
 }
 
 /*//팝업*/
+/*식단*/
+.foodInfoContainer {
+  width: 100%;
+}
+.foodInfoContainer .dateBox {
+  display: flex;
+  align-items: center;
+}
+.foodInfoContainer .dateBox .date {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.foodInfoContainer ul {
+  display: inline-flex;
+  border-bottom: 1px solid #ccc;
+}
+.foodInfoContainer ul .head {
+  background: #666666;
+  color: #ffffff;
+  font-size: 12px;
+  border-right: 1px solid #333;
+  margin: 0;
+  padding: 15px;
+}
+.foodInfoContainer ul li {
+  display: flex;
+  align-items: center;
+  width: 85.25px;
+  padding: 0 15px;
+  margin: 20px 0;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+  background: #ffffff;
+  font-size: 12px;
+}
+.foodInfoContainer ul li a {
+  color: #000000;
+  text-decoration: underline;
+}
+.foodInfoContainer ul li a:hover {
+  color: #2EB3D1;
+}
+.foodInfoContainer ul li .checkBox {
+  border: 1px solid #C5CBD4;
+  width: 20px;
+  height: 20px;
+}
+.foodInfoContainer ul li:last-child {
+  border-right: none;
+}
+
+/*//식단*/
+/*식단2*/
+.foodInfoContainer2 {
+  width: 100%;
+}
+.foodInfoContainer2 .dateBox {
+  display: flex;
+  align-items: center;
+}
+.foodInfoContainer2 .dateBox .date {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.foodInfoContainer2 ul {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+.foodInfoContainer2 ul .head {
+  background: #666666;
+  color: #ffffff;
+  font-size: 18px;
+  border-right: 1px solid #333;
+  margin: 0;
+  padding: 15px;
+}
+.foodInfoContainer2 ul li {
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 20px 15px;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  background: #ffffff;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.foodInfoContainer2 ul li a {
+  color: #000000;
+  text-decoration: underline;
+}
+.foodInfoContainer2 ul li a:hover {
+  color: #2EB3D1;
+}
+.foodInfoContainer2 ul li .checkBox {
+  border: 1px solid #C5CBD4;
+  width: 20px;
+  height: 20px;
+}
+.foodInfoContainer2 ul li:last-child {
+  border-right: none;
+}
+.foodInfoContainer2 .buttonBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.foodInfoContainer2 .buttonBox .left {
+  padding: 15px 40px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  color: #000;
+  margin-right: 30px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+}
+.foodInfoContainer2 .buttonBox .left:hover {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+.foodInfoContainer2 .buttonBox .right {
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50px;
+}
+.foodInfoContainer2 .buttonBox .right:hover {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+.foodInfoContainer2 .extraInfo {
+  font-size: 18px;
+  margin: 30px auto;
+}
+.foodInfoContainer2 .extraInfo p {
+  margin-bottom: 30px;
+}
+
+/*//식단2*/
+/*식단 팝업*/
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999999999;
+  position: fixed;
+  top: 0;
+}
+.popup .box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background-color: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.popup .box .optionList h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.popup .box .optionList p {
+  font-size: 15px;
+  text-align: center;
+}
+.popup .box .optionList ul {
+  display: flex;
+  margin-top: 20px;
+}
+.popup .box .optionList ul li {
+  width: 100px;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #E3E9ED;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.popup .box .optionList ul li:last-child {
+  margin-right: 0;
+}
+.popup .box .optionList ul .selected {
+  background: #2EB3D1;
+  border: 1px solid #2EB3D1;
+  color: #fff;
+}
+.popup .box .bookLogoBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+.popup .agreementTextBox {
+  font-size: 12px;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.popup .checkBoxSection {
+  padding-top: 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.popup .checkBoxSection .checkBox {
+  border: 1px solid #C5CBD4;
+  width: 20px;
+  height: 20px;
+}
+
+/*//식단 팝업*/
 
 /*# sourceMappingURL=style.css.map */
