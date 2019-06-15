@@ -11,6 +11,9 @@ html, body {
 a {
   text-decoration: none; }
 
+select {
+  background: url("../img/down_arrow_ico.svg") no-repeat center right 20px; }
+
 select, input {
   border: none;
   -webkit-appearance: none;
@@ -48,18 +51,27 @@ select, input {
   display: flex !important; }
 
 .wrapper {
-  display: inline-flex; }
+  display: inline-flex;
+  height: 100%; }
 
 .sideMenuContainer {
   width: 280px;
   height: auto;
-  background-color: #fff;
+  background-color: #2EB3D1;
   padding: 30px; }
   .sideMenuContainer .logo {
     display: flex;
     align-items: center;
     font-size: 15px;
     font-weight: 700; }
+    .sideMenuContainer .logo img {
+      width: 100%;
+      height: 100%;
+      max-width: 36px;
+      border-radius: 36px;
+      overflow: hidden;
+      border: 1px solid #C5CBD4;
+      background-color: #ffffff; }
     .sideMenuContainer .logo .divider {
       width: 1px;
       height: 15px;
@@ -72,19 +84,19 @@ select, input {
       align-items: center;
       margin-bottom: 30px;
       font-size: 15px;
-      color: #C5CBD4;
+      color: rgba(255, 255, 255, 0.5);
       font-weight: 700; }
       .sideMenuContainer ul li img {
         margin-right: 20px; }
       .sideMenuContainer ul li .selected {
-        color: #2EB3D1; }
+        color: #ffffff; }
   .sideMenuContainer .subMenu ul {
     margin-top: 0;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-bottom: 25px;
-    border-top: 1px solid #C5CBD4;
-    border-bottom: 1px solid #C5CBD4; }
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
     .sideMenuContainer .subMenu ul li {
       margin-bottom: 0;
       padding-bottom: 20px; }
@@ -92,7 +104,7 @@ select, input {
         padding-bottom: 0;
         margin-bottom: 0; }
     .sideMenuContainer .subMenu ul .selected {
-      color: #2EB3D1; }
+      color: #ffffff; }
   .sideMenuContainer .loginBox {
     position: fixed;
     bottom: 0;
