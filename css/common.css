@@ -83,6 +83,10 @@
     margin-right: 30px;
 }
 
+.marginRight0{
+    margin-right: 0!important;
+}
+
 .marginBottom15{
     margin-bottom: 15px;
 }

@@ -55,6 +55,7 @@ select, input {
   height: 100%; }
 
 .sideMenuContainer {
+  position: relative;
   width: 280px;
   background-color: #2EB3D1;
   padding: 30px;
@@ -107,9 +108,11 @@ select, input {
     .sideMenuContainer .subMenu ul .selected {
       color: #ffffff; }
   .sideMenuContainer .loginBox {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     padding-bottom: 30px; }
+    .sideMenuContainer .loginBox a {
+      color: #ffffff; }
 
 .mainContentContainer {
   width: 100%;
