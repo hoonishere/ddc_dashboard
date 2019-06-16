@@ -57,145 +57,232 @@
     <!--//사이드 메뉴-->
     <!--콘텐츠-->
     <div class="mainContentContainer">
-        <!--상위-->
-        <div class="topContent">
-            <!--왼쪽-->
-            <div class="left">
-                <!--시,구,군-->
-                <select class="selectBox marginRight30">
-                    <option>서울시</option>
-                </select>
-                <select class="selectBox marginRight30">
-                    <option>구</option>
-                </select>
-                <select class="selectBox marginRight30">
-                    <option>동,군</option>
-                </select>
-                <!--//시,구,군-->
-                <!--유치원명-->
-                <input type="text" class="textBox" placeholder="유치원명 입력"/>
-                <!--//유치원명-->
-            </div>
-            <!--//왼쪽-->
-            <!--오른쪽-->
-            <div class="right">
-                <!--날짜-->
-                <select class="selectBox marginRight30">
-                    <option>월간</option>
-                </select>
-                <div class="dateBox">
-                    <img src="img/left_arrow_ico.svg">
-                    <span class="date">2019.04</span>
-                    <img src="img/right_arrow_ico.svg">
-                </div>
-                <!--//날짜-->
-            </div>
-            <!--//오른쪽-->
-        </div>
-        <!--//상위-->
         <!--헤드텍스트-->
         <div class="headText">
-            <div class="left">
-                서울시 전체 활동량
-            </div>
-            <div class="right">
-                1,353,233명 기준
+            <div class="left displayBlock">
+                <div class="displayFlex">
+                    동오 유치원
+                    <a href="#">
+                        <img src="img/setting_button.svg" style="margin-left: 15px;"/>
+                    </a>
+                </div>
+                <div class="detailBox">
+                    <!--반,아이디정보-->
+                    <div class="sortingBox">
+                        <ul>
+                            <li>서울특별시 마포구 잔다리로 3안길 동오유치원</li>
+                        </ul>
+                    </div>
+                    <!--//반,아이디정보-->
+                    <!--특이사항-->
+                    <div class="moreInfo">
+                        김상현 . 02-2363-1005 . 010-2363-1005
+                    </div>
+                    <!--//특이사항-->
+                </div>
             </div>
         </div>
         <!--//헤드텍스트-->
-        <!--데이터-->
-        <div class="dateContainer">
+        <!--식단, 공지사항-->
+        <div class="centerInfoContainer">
             <!--row 1-->
-            <ul>
+            <ul class="borderBottomNone">
                 <!--1-->
-                <div class="box box-3 marginRight30">
-                    <!--그래프-->
-                    <div>
-
+                <div class="box box-2 marginRight30">
+                    <!--head-->
+                    <div class="displayFlex marginBottom20">
+                        <div class="width30 displayFlex alignItemsCenter">
+                            <h1 style="font-size: 18px; text-align: left; margin: 0; font-weight: bold;">
+                                공지사항
+                            </h1>
+                        </div>
+                        <!--버튼-->
+                        <div class="buttonBox width70">
+                            <a href="#">
+                                더 보기
+                            </a>
+                        </div>
+                        <!--//버튼-->
                     </div>
-                    <!--//그래프-->
-                    <h1>3 hour 32 min.</h1>
-                    <p>평균 1달 활동 시간</p>
+                    <!--//head-->
+                    <!--리스트-->
+                    <div>
+                        <!--1-->
+                        <ul>
+                            <li class="box-1_5 justifyContentFlexStart">
+                                공지사항 제목
+                            </li>
+                            <li class="box-4">
+                                2019.02.01
+                            </li>
+                        </ul>
+                        <!--//1-->
+                        <!--2-->
+                        <ul>
+                            <li class="box-1_5 justifyContentFlexStart">
+                                공지사항 제목
+                            </li>
+                            <li class="box-4">
+                                2019.02.01
+                            </li>
+                        </ul>
+                        <!--//2-->
+                        <!--3-->
+                        <ul>
+                            <li class="box-1_5 justifyContentFlexStart">
+                                공지사항 제목
+                            </li>
+                            <li class="box-4">
+                                2019.02.01
+                            </li>
+                        </ul>
+                        <!--//3-->
+                    </div>
+                    <!--//리스트-->
                 </div>
                 <!--//1-->
                 <!--2-->
-                <div class="box box-3 marginRight30">
-                    <!--하이활동-->
-                    <div class="barGraphBox marginBottom20">
-                        <h2>평균 1달 High 활동시간</h2>
-                        <!--그래프-->
-                        <div class="barGraph"></div>
-                        <!--//그래프-->
-                        <h3 class="pointColor1">1 hour 32 min.</h3>
+                <div class="box box-2">
+                    <!--head-->
+                    <div class="displayFlex marginBottom20">
+                        <div class="width30 displayFlex alignItemsCenter">
+                            <h1 style="font-size: 18px; text-align: left; margin: 0; font-weight: bold;">
+                                오늘의 식단
+                            </h1>
+                        </div>
+                        <!--버튼-->
+                        <div class="buttonBox width70 pointColor1">
+                            염도 0.2%
+                        </div>
+                        <!--//버튼-->
                     </div>
-                    <!--//하이활동-->
-                    <!--미디움활동-->
-                    <div class="barGraphBox marginBottom20">
-                        <h2>평균 1달 Medium 활동시간</h2>
-                        <!--그래프-->
-                        <div class="barGraph"></div>
-                        <!--//그래프-->
-                        <h3 class="pointColor2">1 hour 32 min.</h3>
+                    <!--//head-->
+                    <!--리스트-->
+                    <div>
+                        <!--1-->
+                        <ul>
+                            <li class="box-1_5 justifyContentFlexStart">
+                                식단 1, 식단2, 식단3
+                            </li>
+                            <li class="box-4">
+                                잠심 식사
+                            </li>
+                        </ul>
+                        <!--//1-->
+                        <!--2-->
+                        <ul>
+                            <li class="box-1_5 justifyContentFlexStart">
+                                식단1, 식단2, 식단3
+                            </li>
+                            <li class="box-4">
+                                비고
+                            </li>
+                        </ul>
+                        <!--//2-->
                     </div>
-                    <!--//미디움활동-->
-                    <!--로우활동-->
-                    <div class="barGraphBox marginBottom20">
-                        <h2>평균 1달 Low 활동시간</h2>
-                        <!--그래프-->
-                        <div class="barGraph"></div>
-                        <!--//그래프-->
-                        <h3 class="pointColor3">1 hour 32 min.</h3>
-                    </div>
-                    <!--//로우활동-->
+                    <!--//리스트-->
                 </div>
                 <!--//2-->
-                <!--3-->
-                <div class="box box-3">
-                    <!--그래프-->
-                    <div>
-                        <img src="img/good_ico.svg"/>
-                    </div>
-                    <!--//그래프-->
-                    <h1>78%</h1>
-                    <p>평균 1달 활동 목표 성공율</p>
-                </div>
-                <!--//3-->
             </ul>
             <!--//row 1-->
-            <!--row 2-->
-            <ul class="marginTop30">
-                <div class="box box-1">
-                    <!--헤드텍스트-->
-                    <div class="headText">
-                        <div class="left">
-                            <p>평균 1달 활동 시간</p>
-                        </div>
-                        <div class="right">
-                            <div class="option marginRight30">
-                                <div class="dot pointColor1Bg"></div>
-                                <span class="text">High</span>
-                            </div>
-                            <div class="option marginRight30">
-                                <div class="dot pointColor2Bg"></div>
-                                <span class="text">Medium</span>
-                            </div>
-                            <div class="option">
-                                <div class="dot pointColor3Bg"></div>
-                                <span class="text">Low</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--//헤드텍스트-->
-                    <!--그래프-->
-                    <div class="marginTop30">
-
-                    </div>
-                    <!--//그래프-->
-                </div>
-            </ul>
-            <!--//row 2-->
         </div>
-        <!--//데이터-->
+        <!--//식단 공지사항-->
+        <!--교직원-->
+        <div class="centerInfoContainer marginTop30">
+            <div class="box box-1">
+                <div class="displayFlex marginBottom20">
+                    <div class="width30 displayFlex alignItemsCenter">
+                        <h1 style="font-size: 18px; text-align: left">
+                            권한 승인 요청
+                        </h1>
+                    </div>
+                </div>
+                <!--head-->
+                <ul>
+                    <li class="head">
+                        Type.
+                    </li>
+                    <li class="head width200">
+                        이름
+                    </li>
+                    <li class="head">
+                        클래스
+                    </li>
+                </ul>
+                <!--head-->
+                <!--1-->
+                <ul>
+                    <li>
+                        선생님
+                    </li>
+                    <li class="width200">
+                        김상현
+                    </li>
+                    <li>
+                        개나리반
+                    </li>
+                </ul>
+                <!--//1-->
+                <!--2-->
+                <ul>
+                    <li>
+                        선생님
+                    </li>
+                    <li class="width200">
+                        김상현
+                    </li>
+                    <li>
+                        개나리반
+                    </li>
+                </ul>
+                <!--//2-->
+                <!--3-->
+                <ul>
+                    <li>
+                        선생님
+                    </li>
+                    <li class="width200">
+                        김상현
+                    </li>
+                    <li>
+                        개나리반
+                    </li>
+                </ul>
+                <!--//3-->
+                <!--4-->
+                <ul>
+                    <li>
+                        선생님
+                    </li>
+                    <li class="width200">
+                        김상현
+                    </li>
+                    <li>
+                        개나리반
+                    </li>
+                </ul>
+                <!--//4-->
+                <!--5-->
+                <ul>
+                    <li>
+                        선생님
+                    </li>
+                    <li class="width200">
+                        김상현
+                    </li>
+                    <li>
+                        개나리반
+                    </li>
+                </ul>
+                <!--//5-->
+                <!--페이지-->
+                <div class="pagination">
+                    <a href="#">이전페이지</a>&nbsp;&nbsp;&nbsp;1 . 2 . 3 . 4 ... 12&nbsp;&nbsp;&nbsp;<a href="#">다음페이지</a>
+                </div>
+                <!--//페이지-->
+            </div>
+        </div>
+        <!--//교직원-->
     </div>
     <!--//콘텐츠-->
 </div>

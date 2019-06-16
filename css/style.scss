@@ -70,7 +70,6 @@ $black: #000000;
 
 .wrapper{
   display: inline-flex;
-  height: 100%;
 }
 
 .sideMenuContainer{
@@ -83,20 +82,20 @@ $black: #000000;
     align-items: center;
     font-size: 15px;
     font-weight: 700;
+    color: $white;
     img{
       width: 100%;
       height: 100%;
       max-width: 36px;
       border-radius: 36px;
       overflow: hidden;
-      border: 1px solid $gray;
       background-color: $white;
     }
     .divider{
       width: 1px;
       height: 15px;
       margin: 0 15px;
-      background: #C9C9C9;
+      background: rgba(255,255,255,0.5);
     }
   }
   ul{
@@ -539,6 +538,9 @@ $black: #000000;
     font-size: 13px;
     font-weight: 700;
     margin-top: 0px;
+    a{
+      color: $black;
+    }
     .left{
       padding: 15px 40px;
       box-sizing: border-box;
