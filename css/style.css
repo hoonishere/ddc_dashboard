@@ -51,13 +51,15 @@ select, input {
   display: flex !important; }
 
 .wrapper {
-  display: inline-flex; }
+  display: inline-flex;
+  height: 100%; }
 
 .sideMenuContainer {
   width: 280px;
-  height: auto;
   background-color: #2EB3D1;
-  padding: 30px; }
+  padding: 30px;
+  margin: 30px 0 30px 30px;
+  border-radius: 15px; }
   .sideMenuContainer .logo {
     display: flex;
     align-items: center;
@@ -116,7 +118,8 @@ select, input {
   .mainContentContainer .topContent {
     width: 1100px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 30px; }
     .mainContentContainer .topContent .left {
       width: 50%;
       display: flex;
@@ -163,7 +166,7 @@ select, input {
         color: #fff; }
   .mainContentContainer .headText {
     display: flex;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 45px;
     width: 1100px; }
     .mainContentContainer .headText .left {
