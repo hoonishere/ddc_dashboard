@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>modify_button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.index_시전체_활동량" transform="translate(-745.000000, -645.000000)">
+            <g id="modify_button" transform="translate(745.000000, 645.000000)">
+                <circle id="Oval" fill="#D8D8D8" cx="17.5" cy="17.5" r="17.5"></circle>
+                <g id="inside" transform="translate(8.166667, 9.333333)" stroke="#929292" stroke-linecap="round" stroke-linejoin="round">
+                    <g id="Group-5">
+                        <polygon id="Stroke-1" points="17.4998793 2.43427966 4.22944828 15.4788983 1.7547069 13.0461017 15.0254397 -3.90798505e-14"></polygon>
+                        <polyline id="Stroke-3" points="1.75482759 13.0462203 1.5720758e-13 17.2035085 4.22926724 15.4787203"></polyline>
+                    </g>
+                    <path d="M5.12918966,17.2033898 L15.0860862,17.2033898" id="Stroke-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

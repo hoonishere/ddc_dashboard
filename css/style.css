@@ -794,6 +794,11 @@ select, input {
   z-index: 9999999999;
   position: fixed;
   top: 0; }
+  .popup .inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden; }
   .popup .box {
     position: fixed;
     top: 50%;
@@ -847,5 +852,112 @@ select, input {
       height: 20px; }
 
 /*//식단 팝업*/
+/*식단*/
+.foodInfoContainer {
+  width: 100%;
+  max-width: 1100px; }
+  .foodInfoContainer .box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box; }
+  .foodInfoContainer .pagination {
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center; }
+    .foodInfoContainer .pagination a {
+      color: #000000;
+      text-decoration: underline; }
+  .foodInfoContainer .buttonBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px; }
+    .foodInfoContainer .buttonBox a {
+      color: #000000; }
+    .foodInfoContainer .buttonBox .left {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer .buttonBox .left:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .foodInfoContainer .buttonBox .right {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer .buttonBox .right:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .foodInfoContainer ul {
+    display: flex;
+    border-bottom: 1px solid #ccc; }
+    .foodInfoContainer ul .head {
+      background: #666666;
+      color: #ffffff;
+      font-size: 12px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px; }
+    .foodInfoContainer ul li {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      background: #ffffff;
+      font-size: 12px; }
+      .foodInfoContainer ul li a {
+        color: #000000;
+        text-decoration: underline; }
+        .foodInfoContainer ul li a:hover {
+          color: #2EB3D1; }
+      .foodInfoContainer ul li .checkBox {
+        border: 1px solid #C5CBD4;
+        width: 20px;
+        height: 20px; }
+      .foodInfoContainer ul li:last-child {
+        border-right: none; }
+
+.foodInfo {
+  width: 100%; }
+  .foodInfo ul {
+    display: block;
+    margin-top: 15px; }
+    .foodInfo ul:first-child {
+      margin-top: 0; }
+    .foodInfo ul:last-child {
+      border-bottom: 0; }
+    .foodInfo ul li {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border-right: none;
+      margin-bottom: 15px;
+      margin-top: 0; }
+      .foodInfo ul li h1 {
+        font-size: 12px; }
+      .foodInfo ul li p {
+        font-size: 12px;
+        margin-bottom: 5px; }
+        .foodInfo ul li p:last-child {
+          margin-bottom: 0; }
+
+/*//식단*/
 
 /*# sourceMappingURL=style.css.map */
