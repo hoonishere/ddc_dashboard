@@ -135,7 +135,8 @@ select, input {
     .mainContentContainer .topContent .selectBox {
       font-size: 16px;
       font-weight: 700;
-      width: 80px;
+      width: auto;
+      padding-right: 35px;
       height: 22px;
       background: url("../img/down_arrow_ico.svg") no-repeat center right; }
     .mainContentContainer .topContent .textBox {
@@ -332,6 +333,8 @@ select, input {
       border: 1px solid #C5CBD4;
       width: 20px;
       height: 20px; }
+      .popup .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
 
 /*//팝업*/
 .buttonBox {
@@ -380,6 +383,10 @@ select, input {
     background: #2EB3D1;
     border: 1px solid #2EB3D1;
     color: #fff; }
+  .buttonFull label {
+    width: 100%;
+    display: block;
+    padding: 20px 0; }
 
 /*로그인*/
 .loginSection {
@@ -490,6 +497,8 @@ select, input {
         border: 1px solid #C5CBD4;
         width: 20px;
         height: 20px; }
+        .centerInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
       .centerInfoContainer ul li:last-child {
         border-right: none; }
 
@@ -527,7 +536,8 @@ select, input {
 .childrenListSortingBox .selectBox {
   font-size: 16px;
   font-weight: 700;
-  width: 80px;
+  width: auto;
+  padding-right: 35px;
   height: 22px;
   background: url("../img/down_arrow_ico.svg") no-repeat center right; }
 .childrenListSortingBox .textBox {
@@ -587,11 +597,14 @@ select, input {
       border: 1px solid #C5CBD4;
       width: 20px;
       height: 20px; }
+      .popupAddChildren .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
   .popupAddChildren .inputFile {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    display: none; }
   .popupAddChildren .childrenListContainer {
     height: 200px;
     overflow: scroll; }
@@ -624,6 +637,8 @@ select, input {
           border: 1px solid #C5CBD4;
           width: 20px;
           height: 20px; }
+          .popupAddChildren .childrenListContainer ul li .checkBox:checked {
+            background: #2EB3D1; }
         .popupAddChildren .childrenListContainer ul li:last-child {
           border-right: none; }
   .popupAddChildren .confirmTeacherListContainer {
@@ -658,6 +673,8 @@ select, input {
           border: 1px solid #C5CBD4;
           width: 20px;
           height: 20px; }
+          .popupAddChildren .confirmTeacherListContainer ul li .checkBox:checked {
+            background: #2EB3D1; }
         .popupAddChildren .confirmTeacherListContainer ul li:last-child {
           border-right: none; }
 
@@ -701,6 +718,8 @@ select, input {
         border: 1px solid #C5CBD4;
         width: 20px;
         height: 20px; }
+        .foodInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
       .foodInfoContainer ul li:last-child {
         border-right: none; }
 
@@ -745,6 +764,8 @@ select, input {
         border: 1px solid #C5CBD4;
         width: 20px;
         height: 20px; }
+        .foodInfoContainer2 ul li .checkBox:checked {
+          background: #2EB3D1; }
       .foodInfoContainer2 ul li:last-child {
         border-right: none; }
   .foodInfoContainer2 .buttonBox {
@@ -798,7 +819,8 @@ select, input {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    display: none; }
   .popup .box {
     position: fixed;
     top: 50%;
@@ -850,6 +872,8 @@ select, input {
       border: 1px solid #C5CBD4;
       width: 20px;
       height: 20px; }
+      .popup .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
 
 /*//식단 팝업*/
 /*식단*/
@@ -931,6 +955,8 @@ select, input {
         border: 1px solid #C5CBD4;
         width: 20px;
         height: 20px; }
+        .foodInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
       .foodInfoContainer ul li:last-child {
         border-right: none; }
 
@@ -950,14 +976,20 @@ select, input {
       border-right: none;
       margin-bottom: 15px;
       margin-top: 0; }
-      .foodInfo ul li h1 {
-        font-size: 12px; }
-      .foodInfo ul li p {
-        font-size: 12px;
-        margin-bottom: 5px; }
-        .foodInfo ul li p:last-child {
-          margin-bottom: 0; }
+  .foodInfo h1 {
+    font-size: 12px; }
+  .foodInfo p {
+    font-size: 12px;
+    margin-bottom: 5px; }
+    .foodInfo p:last-child {
+      margin-bottom: 0; }
 
 /*//식단*/
+/*엑셀파일*/
+.excelFileList a {
+  color: #000000;
+  text-decoration: underline; }
+
+/*//엑셀파일*/
 
 /*# sourceMappingURL=style.css.map */
