@@ -6,16 +6,13 @@ html, body {
   background: #F9FAFC;
   padding: 0;
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
-}
+  font-family: 'Noto Sans KR', sans-serif; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 select {
-  background: url("../img/down_arrow_ico.svg") no-repeat center right 20px;
-}
+  background: url("../img/down_arrow_ico.svg") no-repeat center right 20px; }
 
 select, input {
   border: none;
@@ -23,48 +20,39 @@ select, input {
   -moz-appearance: none;
   appearance: none;
   -ms-appearance: none;
-  /* get rid of default appearance for IE8, 9 and 10*/
-}
+  /* get rid of default appearance for IE8, 9 and 10*/ }
 
 .borderTopNone {
-  border-top: none !important;
-}
+  border-top: none !important; }
 
 .borderBottomNone {
-  border-bottom: none !important;
-}
+  border-bottom: none !important; }
 
 .borderLeftNone {
-  border-left: none !important;
-}
+  border-left: none !important; }
 
 .divider {
   width: 100%;
   height: 1px;
   background: #C5CBD4;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .textBox {
   width: 100%;
   border: 1px solid #C5CBD4;
   padding: 20px;
   box-sizing: border-box;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .displayBlock {
-  display: block !important;
-}
+  display: block !important; }
 
 .displayFlex {
-  display: flex !important;
-}
+  display: flex !important; }
 
 .wrapper {
   display: inline-flex;
-  height: 100%;
-}
+  height: 100%; }
 
 .sideMenuContainer {
   position: relative;
@@ -72,268 +60,219 @@ select, input {
   background-color: #2EB3D1;
   padding: 30px;
   margin: 30px 0 30px 30px;
-  border-radius: 15px;
-}
-.sideMenuContainer .logo {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 700;
-  color: #ffffff;
-}
-.sideMenuContainer .logo img {
-  width: 100%;
-  height: 100%;
-  max-width: 36px;
-  border-radius: 36px;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-.sideMenuContainer .logo .divider {
-  width: 1px;
-  height: 15px;
-  margin: 0 15px;
-  background: rgba(255, 255, 255, 0.5);
-}
-.sideMenuContainer ul {
-  margin-top: 60px;
-}
-.sideMenuContainer ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 700;
-}
-.sideMenuContainer ul li img {
-  margin-right: 20px;
-}
-.sideMenuContainer ul li .selected {
-  color: #ffffff;
-}
-.sideMenuContainer .subMenu ul {
-  margin-top: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-.sideMenuContainer .subMenu ul li {
-  margin-bottom: 0;
-  padding-bottom: 20px;
-}
-.sideMenuContainer .subMenu ul li:last-child {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.sideMenuContainer .subMenu ul .selected {
-  color: #ffffff;
-}
-.sideMenuContainer .loginBox {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 30px;
-}
-.sideMenuContainer .loginBox a {
-  color: #ffffff;
-}
+  border-radius: 15px; }
+  .sideMenuContainer .logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff; }
+    .sideMenuContainer .logo img {
+      width: 100%;
+      height: 100%;
+      max-width: 36px;
+      border-radius: 36px;
+      overflow: hidden;
+      background-color: #ffffff; }
+    .sideMenuContainer .logo .divider {
+      width: 1px;
+      height: 15px;
+      margin: 0 15px;
+      background: rgba(255, 255, 255, 0.5); }
+  .sideMenuContainer ul {
+    margin-top: 60px; }
+    .sideMenuContainer ul li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 700; }
+      .sideMenuContainer ul li img {
+        margin-right: 20px; }
+      .sideMenuContainer ul li .selected {
+        color: #ffffff; }
+  .sideMenuContainer .subMenu ul {
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+    .sideMenuContainer .subMenu ul li {
+      margin-bottom: 0;
+      padding-bottom: 20px; }
+      .sideMenuContainer .subMenu ul li:last-child {
+        padding-bottom: 0;
+        margin-bottom: 0; }
+    .sideMenuContainer .subMenu ul .selected {
+      color: #ffffff; }
+  .sideMenuContainer .loginBox {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px; }
+    .sideMenuContainer .loginBox a {
+      color: #ffffff; }
 
 .mainContentContainer {
   width: 100%;
   height: auto;
-  margin: 30px;
-}
-.mainContentContainer .topContent {
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-.mainContentContainer .topContent .left {
-  width: 50%;
-  display: flex;
-  align-items: center;
-}
-.mainContentContainer .topContent .right {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-.mainContentContainer .topContent .selectBox {
-  font-size: 16px;
-  font-weight: 700;
-  width: 80px;
-  height: 22px;
-  background: url("../img/down_arrow_ico.svg") no-repeat center right;
-}
-.mainContentContainer .topContent .textBox {
-  font-size: 12px;
-  width: 130px;
-  font-weight: 400;
-  padding: 10px 15px;
-  background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
-  border-radius: 35px;
-}
-.mainContentContainer .topContent .dateBox {
-  display: flex;
-  align-items: center;
-}
-.mainContentContainer .topContent .dateBox .date {
-  margin: 0 10px;
-  font-size: 16px;
-  font-weight: 700;
-}
-.mainContentContainer .topContent .buttonSmall {
-  width: 200px;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: bold;
-}
-.mainContentContainer .topContent .buttonSmall:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.mainContentContainer .headText {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 45px;
-  width: 1100px;
-}
-.mainContentContainer .headText .left {
-  width: 50%;
-  font-size: 35px;
-  font-weight: 700;
-  display: flex;
-}
-.mainContentContainer .headText .left .detailBox .sortingBox {
-  margin: 20px 0;
-}
-.mainContentContainer .headText .left .detailBox .sortingBox ul {
-  display: flex;
-}
-.mainContentContainer .headText .left .detailBox .sortingBox ul li {
-  border: 1px solid #D4DADF;
-  box-sizing: border-box;
-  padding: 15px 10px;
-  font-size: 12px;
-  border-radius: 30px;
-  font-weight: 700;
-}
-.mainContentContainer .headText .left .detailBox .moreInfo {
-  font-size: 12px;
-  font-weight: 700;
-}
-.mainContentContainer .headText .right {
-  width: 50%;
-  justify-content: flex-end;
-  color: #8E8E95;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-}
-.mainContentContainer .dateContainer ul {
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-}
-.mainContentContainer .dateContainer .box {
-  background: #fff;
-  padding: 30px;
-  text-align: center;
-  box-sizing: border-box;
-}
-.mainContentContainer .dateContainer .box h1 {
-  font-size: 25px;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-.mainContentContainer .dateContainer .box p {
-  font-size: 16px;
-  font-weight: 700;
-}
-.mainContentContainer .dateContainer .box .headText {
-  display: flex;
-  margin: 0;
-  width: 100%;
-}
-.mainContentContainer .dateContainer .box .headText .left {
-  width: 50%;
-}
-.mainContentContainer .dateContainer .box .headText .right {
-  width: 50%;
-  align-items: center;
-  justify-content: flex-end;
-}
-.mainContentContainer .dateContainer .box .headText .right .option {
-  display: flex;
-  align-items: center;
-}
-.mainContentContainer .dateContainer .box .headText .right .option .dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 12px;
-}
-.mainContentContainer .dateContainer .box .headText .right .option .text {
-  font-size: 12px;
-  font-weight: 700;
-  color: #000;
-  margin-left: 10px;
-}
-.mainContentContainer .dateContainer .box .headText .right p {
-  color: #000;
-  font-size: 25px;
-  font-weight: 300;
-}
-.mainContentContainer .dateContainer .box .barGraphBox {
-  width: 100%;
-}
-.mainContentContainer .dateContainer .box .barGraphBox .barGraph {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.mainContentContainer .dateContainer .box .barGraphBox h2 {
-  font-size: 13px;
-  font-weight: 700;
-  text-align: left;
-}
-.mainContentContainer .dateContainer .box .barGraphBox h3 {
-  font-size: 15px;
-  font-weight: 300;
-  text-align: right;
-}
+  margin: 30px; }
+  .mainContentContainer .topContent {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .mainContentContainer .topContent .left {
+      width: 50%;
+      display: flex;
+      align-items: center; }
+    .mainContentContainer .topContent .right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+    .mainContentContainer .topContent .selectBox {
+      font-size: 16px;
+      font-weight: 700;
+      width: auto;
+      padding-right: 35px;
+      height: 22px;
+      background: url("../img/down_arrow_ico.svg") no-repeat center right; }
+    .mainContentContainer .topContent .textBox {
+      font-size: 12px;
+      width: 130px;
+      font-weight: 400;
+      padding: 10px 15px;
+      background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
+      border-radius: 35px; }
+    .mainContentContainer .topContent .dateBox {
+      display: flex;
+      align-items: center; }
+      .mainContentContainer .topContent .dateBox .date {
+        margin: 0 10px;
+        font-size: 16px;
+        font-weight: 700; }
+    .mainContentContainer .topContent .buttonSmall {
+      width: 200px;
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold; }
+      .mainContentContainer .topContent .buttonSmall:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .mainContentContainer .headText {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    width: 1100px; }
+    .mainContentContainer .headText .left {
+      width: 50%;
+      font-size: 35px;
+      font-weight: 700;
+      display: flex; }
+      .mainContentContainer .headText .left .detailBox .sortingBox {
+        margin: 20px 0; }
+        .mainContentContainer .headText .left .detailBox .sortingBox ul {
+          display: flex; }
+          .mainContentContainer .headText .left .detailBox .sortingBox ul li {
+            border: 1px solid #D4DADF;
+            box-sizing: border-box;
+            padding: 15px 10px;
+            font-size: 12px;
+            border-radius: 30px;
+            font-weight: 700; }
+      .mainContentContainer .headText .left .detailBox .moreInfo {
+        font-size: 12px;
+        font-weight: 700; }
+    .mainContentContainer .headText .right {
+      width: 50%;
+      justify-content: flex-end;
+      color: #8E8E95;
+      font-size: 15px;
+      display: flex;
+      align-items: center; }
+  .mainContentContainer .dateContainer ul {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between; }
+  .mainContentContainer .dateContainer .box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box; }
+    .mainContentContainer .dateContainer .box h1 {
+      font-size: 25px;
+      font-weight: 300;
+      margin-top: 25px;
+      margin-bottom: 15px; }
+    .mainContentContainer .dateContainer .box p {
+      font-size: 16px;
+      font-weight: 700; }
+    .mainContentContainer .dateContainer .box .headText {
+      display: flex;
+      margin: 0;
+      width: 100%; }
+      .mainContentContainer .dateContainer .box .headText .left {
+        width: 50%; }
+      .mainContentContainer .dateContainer .box .headText .right {
+        width: 50%;
+        align-items: center;
+        justify-content: flex-end; }
+        .mainContentContainer .dateContainer .box .headText .right .option {
+          display: flex;
+          align-items: center; }
+          .mainContentContainer .dateContainer .box .headText .right .option .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 12px; }
+          .mainContentContainer .dateContainer .box .headText .right .option .text {
+            font-size: 12px;
+            font-weight: 700;
+            color: #000;
+            margin-left: 10px; }
+        .mainContentContainer .dateContainer .box .headText .right p {
+          color: #000;
+          font-size: 25px;
+          font-weight: 300; }
+    .mainContentContainer .dateContainer .box .barGraphBox {
+      width: 100%; }
+      .mainContentContainer .dateContainer .box .barGraphBox .barGraph {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .mainContentContainer .dateContainer .box .barGraphBox h2 {
+        font-size: 13px;
+        font-weight: 700;
+        text-align: left; }
+      .mainContentContainer .dateContainer .box .barGraphBox h3 {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: right; }
 
 .table {
   width: 100%;
-  box-sizing: border-box;
-}
-.table ul {
-  width: 100% !important;
-  display: flex;
-  justify-content: space-between;
-}
-.table ul li {
-  font-weight: 400;
-  font-size: 12px;
-  text-align: center;
-  padding: 18px 0;
-  border-bottom: 1px solid #C5CBD4;
-}
-.table ul .head {
-  font-size: 12px;
-  font-weight: 700;
-  border-bottom: 0;
-}
+  box-sizing: border-box; }
+  .table ul {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between; }
+    .table ul li {
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      padding: 18px 0;
+      border-bottom: 1px solid #C5CBD4; }
+    .table ul .head {
+      font-size: 12px;
+      font-weight: 700;
+      border-bottom: 0; }
 
 /*팝업*/
 .popup {
@@ -342,70 +281,60 @@ select, input {
   background: rgba(0, 0, 0, 0.8);
   z-index: 9999999999;
   position: fixed;
-  top: 0;
-}
-.popup .box {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  background-color: #fff;
-  padding: 40px;
-  box-sizing: border-box;
-}
-.popup .box .optionList h1 {
-  font-size: 16px;
-  font-weight: 700;
-}
-.popup .box .optionList p {
-  font-size: 15px;
-  text-align: center;
-}
-.popup .box .optionList ul {
-  display: flex;
-  margin-top: 20px;
-}
-.popup .box .optionList ul li {
-  width: 100px;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #E3E9ED;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 700;
-  margin-right: 20px;
-}
-.popup .box .optionList ul li:last-child {
-  margin-right: 0;
-}
-.popup .box .optionList ul .selected {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.popup .box .bookLogoBox {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 50px;
-}
-.popup .agreementTextBox {
-  font-size: 12px;
-  width: 100%;
-  margin-top: 15px;
-  padding: 10px;
-}
-.popup .checkBoxSection {
-  padding-top: 15px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-}
-.popup .checkBoxSection .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
+  top: 0; }
+  .popup .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box; }
+    .popup .box .optionList h1 {
+      font-size: 16px;
+      font-weight: 700; }
+    .popup .box .optionList p {
+      font-size: 15px;
+      text-align: center; }
+    .popup .box .optionList ul {
+      display: flex;
+      margin-top: 20px; }
+      .popup .box .optionList ul li {
+        width: 100px;
+        padding: 15px 0;
+        text-align: center;
+        border: 1px solid #E3E9ED;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 20px; }
+        .popup .box .optionList ul li:last-child {
+          margin-right: 0; }
+      .popup .box .optionList ul .selected {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .popup .box .bookLogoBox {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px; }
+  .popup .agreementTextBox {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px; }
+  .popup .checkBoxSection {
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center; }
+    .popup .checkBoxSection .checkBox {
+      border: 1px solid #C5CBD4;
+      width: 20px;
+      height: 20px; }
+      .popup .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
 
 /*//팝업*/
 .buttonBox {
@@ -414,36 +343,31 @@ select, input {
   justify-content: center;
   font-size: 15px;
   font-weight: 700;
-  margin-top: 50px;
-}
-.buttonBox .left {
-  padding: 20px 60px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.buttonBox .left:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.buttonBox .right {
-  padding: 20px 60px;
-  box-sizing: border-box;
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.buttonBox .right:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
+  margin-top: 50px; }
+  .buttonBox .left {
+    padding: 20px 60px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 30px;
+    transition: all .2s ease-in-out;
+    border-radius: 50px; }
+    .buttonBox .left:hover {
+      background: #2EB3D1;
+      border: 1px solid #2EB3D1;
+      color: #fff; }
+  .buttonBox .right {
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    border-radius: 50px; }
+    .buttonBox .right:hover {
+      background: #2EB3D1;
+      border: 1px solid #2EB3D1;
+      color: #fff; }
 
 .buttonFull {
   width: 100%;
@@ -452,204 +376,176 @@ select, input {
   border: 1px solid #000;
   color: #000;
   margin-right: 30px;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   border-radius: 50px;
-  text-align: center;
-}
-.buttonFull:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
+  text-align: center; }
+  .buttonFull:hover {
+    background: #2EB3D1;
+    border: 1px solid #2EB3D1;
+    color: #fff; }
+  .buttonFull label {
+    width: 100%;
+    display: block;
+    padding: 20px 0; }
 
 /*로그인*/
 .loginSection {
-  width: 100%;
-}
-.loginSection ul {
-  display: flex;
-}
-.loginSection ul li {
-  width: 50%;
-  padding-right: 50px;
-  box-sizing: border-box;
-}
-.loginSection ul li h2 {
-  font-size: 15px;
-  padding-bottom: 15px;
-  text-align: left;
-}
-.loginSection ul li:last-child {
-  margin-right: 0;
-}
-.loginSection ul li .textBox {
-  width: 100%;
-  border: 1px solid #C5CBD4;
-  padding: 20px;
-  box-sizing: border-box;
-  font-size: 15px;
-}
-.loginSection .findPasswordSection {
-  font-size: 15px;
-  margin-top: 30px;
-}
-.loginSection .findPasswordSection a {
-  color: #000000;
-}
-.loginSection .findPasswordSection a:hover {
-  color: #2EB3D1;
-}
+  width: 100%; }
+  .loginSection ul {
+    display: flex; }
+    .loginSection ul li {
+      width: 50%;
+      padding-right: 50px;
+      box-sizing: border-box; }
+      .loginSection ul li h2 {
+        font-size: 15px;
+        padding-bottom: 15px;
+        text-align: left; }
+      .loginSection ul li:last-child {
+        margin-right: 0; }
+      .loginSection ul li .textBox {
+        width: 100%;
+        border: 1px solid #C5CBD4;
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: 15px; }
+  .loginSection .findPasswordSection {
+    font-size: 15px;
+    margin-top: 30px; }
+    .loginSection .findPasswordSection a {
+      color: #000000; }
+      .loginSection .findPasswordSection a:hover {
+        color: #2EB3D1; }
 
 /*//로그인*/
 /*기관정보*/
 .centerInfoContainer {
   width: 100%;
-  max-width: 1100px;
-}
-.centerInfoContainer .box {
-  background: #fff;
-  padding: 30px;
-  text-align: center;
-  box-sizing: border-box;
-}
-.centerInfoContainer .pagination {
-  font-size: 12px;
-  padding-top: 30px;
-  text-align: center;
-}
-.centerInfoContainer .pagination a {
-  color: #000000;
-  text-decoration: underline;
-}
-.centerInfoContainer .buttonBox {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 13px;
-  font-weight: 700;
-  margin-top: 0px;
-}
-.centerInfoContainer .buttonBox a {
-  color: #000000;
-}
-.centerInfoContainer .buttonBox .left {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.centerInfoContainer .buttonBox .left:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.centerInfoContainer .buttonBox .right {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.centerInfoContainer .buttonBox .right:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.centerInfoContainer ul {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-}
-.centerInfoContainer ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 12px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.centerInfoContainer ul li {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 0 15px;
-  margin: 20px 0;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background: #ffffff;
-  font-size: 12px;
-}
-.centerInfoContainer ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.centerInfoContainer ul li a:hover {
-  color: #2EB3D1;
-}
-.centerInfoContainer ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.centerInfoContainer ul li:last-child {
-  border-right: none;
-}
+  max-width: 1100px; }
+  .centerInfoContainer .box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box; }
+  .centerInfoContainer .pagination {
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center; }
+    .centerInfoContainer .pagination a {
+      color: #000000;
+      text-decoration: underline; }
+  .centerInfoContainer .buttonBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px; }
+    .centerInfoContainer .buttonBox a {
+      color: #000000; }
+    .centerInfoContainer .buttonBox .left {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .centerInfoContainer .buttonBox .left:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .centerInfoContainer .buttonBox .right {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .centerInfoContainer .buttonBox .right:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .centerInfoContainer ul {
+    display: flex;
+    border-bottom: 1px solid #ccc; }
+    .centerInfoContainer ul .head {
+      background: #666666;
+      color: #ffffff;
+      font-size: 12px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px; }
+    .centerInfoContainer ul li {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      background: #ffffff;
+      font-size: 12px; }
+      .centerInfoContainer ul li a {
+        color: #000000;
+        text-decoration: underline; }
+        .centerInfoContainer ul li a:hover {
+          color: #2EB3D1; }
+      .centerInfoContainer ul li .checkBox {
+        border: 1px solid #C5CBD4;
+        width: 20px;
+        height: 20px; }
+        .centerInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
+      .centerInfoContainer ul li:last-child {
+        border-right: none; }
 
 /*//기관정보*/
 /*명부*/
 .childrenListSortingBox .buttonBox {
   font-size: 13px;
   font-weight: 700;
-  margin-top: 0px;
-}
-.childrenListSortingBox .buttonBox .left {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.childrenListSortingBox .buttonBox .left:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.childrenListSortingBox .buttonBox .right {
-  width: 100%;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.childrenListSortingBox .buttonBox .right:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
+  margin-top: 0px; }
+  .childrenListSortingBox .buttonBox .left {
+    padding: 15px 40px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 30px;
+    transition: all .2s ease-in-out;
+    border-radius: 50px; }
+    .childrenListSortingBox .buttonBox .left:hover {
+      background: #2EB3D1;
+      border: 1px solid #2EB3D1;
+      color: #fff; }
+  .childrenListSortingBox .buttonBox .right {
+    width: 100%;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    border-radius: 50px; }
+    .childrenListSortingBox .buttonBox .right:hover {
+      background: #2EB3D1;
+      border: 1px solid #2EB3D1;
+      color: #fff; }
 .childrenListSortingBox .selectBox {
   font-size: 16px;
   font-weight: 700;
-  width: 80px;
+  width: auto;
+  padding-right: 35px;
   height: 22px;
-  background: url("../img/down_arrow_ico.svg") no-repeat center right;
-}
+  background: url("../img/down_arrow_ico.svg") no-repeat center right; }
 .childrenListSortingBox .textBox {
   font-size: 12px;
   font-weight: 400;
   padding: 10px 15px;
   background: #E3E9ED url("../img/search_ico.svg") no-repeat center right 10px;
-  border-radius: 35px;
-}
+  border-radius: 35px; }
 
 /*//명부*/
 /*팝업*/
@@ -659,297 +555,256 @@ select, input {
   background: rgba(0, 0, 0, 0.8);
   z-index: 9999999999;
   position: fixed;
-  top: 0;
-}
-.popupAddChildren .box {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  background-color: #fff;
-  padding: 40px;
-  box-sizing: border-box;
-}
-.popupAddChildren .box .bookLogoBox {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 50px;
-}
-.popupAddChildren .box .buttonFull {
-  width: 100%;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-  text-align: center;
-}
-.popupAddChildren .box .buttonFull:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.popupAddChildren .agreementTextBox {
-  font-size: 12px;
-  width: 100%;
-  margin-top: 15px;
-  padding: 10px;
-}
-.popupAddChildren .checkBoxSection {
-  padding-top: 15px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-}
-.popupAddChildren .checkBoxSection .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.popupAddChildren .inputFile {
-  width: 0.1px;
-  height: 0.1px;
-  opacity: 0;
-  overflow: hidden;
-}
-.popupAddChildren .childrenListContainer {
-  height: 200px;
-  overflow: scroll;
-}
-.popupAddChildren .childrenListContainer ul {
-  display: inline-flex;
-  border-bottom: 1px solid #ccc;
-}
-.popupAddChildren .childrenListContainer ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 12px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.popupAddChildren .childrenListContainer ul li {
-  display: flex;
-  align-items: center;
-  width: 85.25px;
-  padding: 0 15px;
-  margin: 20px 0;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background: #ffffff;
-  font-size: 12px;
-}
-.popupAddChildren .childrenListContainer ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.popupAddChildren .childrenListContainer ul li a:hover {
-  color: #2EB3D1;
-}
-.popupAddChildren .childrenListContainer ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.popupAddChildren .childrenListContainer ul li:last-child {
-  border-right: none;
-}
-.popupAddChildren .confirmTeacherListContainer {
-  height: 200px;
-  overflow: scroll;
-}
-.popupAddChildren .confirmTeacherListContainer ul {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-}
-.popupAddChildren .confirmTeacherListContainer ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 12px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.popupAddChildren .confirmTeacherListContainer ul li {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 0 15px;
-  margin: 20px 0;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background: #ffffff;
-  font-size: 12px;
-}
-.popupAddChildren .confirmTeacherListContainer ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.popupAddChildren .confirmTeacherListContainer ul li a:hover {
-  color: #2EB3D1;
-}
-.popupAddChildren .confirmTeacherListContainer ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.popupAddChildren .confirmTeacherListContainer ul li:last-child {
-  border-right: none;
-}
+  top: 0; }
+  .popupAddChildren .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box; }
+    .popupAddChildren .box .bookLogoBox {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px; }
+    .popupAddChildren .box .buttonFull {
+      width: 100%;
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px;
+      text-align: center; }
+      .popupAddChildren .box .buttonFull:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .popupAddChildren .agreementTextBox {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px; }
+  .popupAddChildren .checkBoxSection {
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center; }
+    .popupAddChildren .checkBoxSection .checkBox {
+      border: 1px solid #C5CBD4;
+      width: 20px;
+      height: 20px; }
+      .popupAddChildren .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
+  .popupAddChildren .inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    display: none; }
+  .popupAddChildren .childrenListContainer {
+    height: 200px;
+    overflow: scroll; }
+    .popupAddChildren .childrenListContainer ul {
+      display: inline-flex;
+      border-bottom: 1px solid #ccc; }
+      .popupAddChildren .childrenListContainer ul .head {
+        background: #666666;
+        color: #ffffff;
+        font-size: 12px;
+        border-right: 1px solid #333;
+        margin: 0;
+        padding: 15px; }
+      .popupAddChildren .childrenListContainer ul li {
+        display: flex;
+        align-items: center;
+        width: 85.25px;
+        padding: 0 15px;
+        margin: 20px 0;
+        justify-content: center;
+        border-right: 1px solid #ccc;
+        background: #ffffff;
+        font-size: 12px; }
+        .popupAddChildren .childrenListContainer ul li a {
+          color: #000000;
+          text-decoration: underline; }
+          .popupAddChildren .childrenListContainer ul li a:hover {
+            color: #2EB3D1; }
+        .popupAddChildren .childrenListContainer ul li .checkBox {
+          border: 1px solid #C5CBD4;
+          width: 20px;
+          height: 20px; }
+          .popupAddChildren .childrenListContainer ul li .checkBox:checked {
+            background: #2EB3D1; }
+        .popupAddChildren .childrenListContainer ul li:last-child {
+          border-right: none; }
+  .popupAddChildren .confirmTeacherListContainer {
+    height: 200px;
+    overflow: scroll; }
+    .popupAddChildren .confirmTeacherListContainer ul {
+      display: flex;
+      border-bottom: 1px solid #ccc; }
+      .popupAddChildren .confirmTeacherListContainer ul .head {
+        background: #666666;
+        color: #ffffff;
+        font-size: 12px;
+        border-right: 1px solid #333;
+        margin: 0;
+        padding: 15px; }
+      .popupAddChildren .confirmTeacherListContainer ul li {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 15px;
+        margin: 20px 0;
+        justify-content: center;
+        border-right: 1px solid #ccc;
+        background: #ffffff;
+        font-size: 12px; }
+        .popupAddChildren .confirmTeacherListContainer ul li a {
+          color: #000000;
+          text-decoration: underline; }
+          .popupAddChildren .confirmTeacherListContainer ul li a:hover {
+            color: #2EB3D1; }
+        .popupAddChildren .confirmTeacherListContainer ul li .checkBox {
+          border: 1px solid #C5CBD4;
+          width: 20px;
+          height: 20px; }
+          .popupAddChildren .confirmTeacherListContainer ul li .checkBox:checked {
+            background: #2EB3D1; }
+        .popupAddChildren .confirmTeacherListContainer ul li:last-child {
+          border-right: none; }
 
 /*//팝업*/
 /*식단*/
 .foodInfoContainer {
-  width: 100%;
-}
-.foodInfoContainer .dateBox {
-  display: flex;
-  align-items: center;
-}
-.foodInfoContainer .dateBox .date {
-  margin: 0 10px;
-  font-size: 16px;
-  font-weight: 700;
-}
-.foodInfoContainer ul {
-  display: inline-flex;
-  border-bottom: 1px solid #ccc;
-}
-.foodInfoContainer ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 12px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.foodInfoContainer ul li {
-  display: flex;
-  align-items: center;
-  width: 85.25px;
-  padding: 0 15px;
-  margin: 20px 0;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background: #ffffff;
-  font-size: 12px;
-}
-.foodInfoContainer ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.foodInfoContainer ul li a:hover {
-  color: #2EB3D1;
-}
-.foodInfoContainer ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.foodInfoContainer ul li:last-child {
-  border-right: none;
-}
+  width: 100%; }
+  .foodInfoContainer .dateBox {
+    display: flex;
+    align-items: center; }
+    .foodInfoContainer .dateBox .date {
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 700; }
+  .foodInfoContainer ul {
+    display: inline-flex;
+    border-bottom: 1px solid #ccc; }
+    .foodInfoContainer ul .head {
+      background: #666666;
+      color: #ffffff;
+      font-size: 12px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px; }
+    .foodInfoContainer ul li {
+      display: flex;
+      align-items: center;
+      width: 85.25px;
+      padding: 0 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      background: #ffffff;
+      font-size: 12px; }
+      .foodInfoContainer ul li a {
+        color: #000000;
+        text-decoration: underline; }
+        .foodInfoContainer ul li a:hover {
+          color: #2EB3D1; }
+      .foodInfoContainer ul li .checkBox {
+        border: 1px solid #C5CBD4;
+        width: 20px;
+        height: 20px; }
+        .foodInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
+      .foodInfoContainer ul li:last-child {
+        border-right: none; }
 
 /*//식단*/
 /*식단2*/
 .foodInfoContainer2 {
-  width: 100%;
-}
-.foodInfoContainer2 .dateBox {
-  display: flex;
-  align-items: center;
-}
-.foodInfoContainer2 .dateBox .date {
-  margin: 0 10px;
-  font-size: 16px;
-  font-weight: 700;
-}
-.foodInfoContainer2 ul {
-  display: block;
-  border-bottom: 1px solid #ccc;
-}
-.foodInfoContainer2 ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 18px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.foodInfoContainer2 ul li {
-  display: block;
-  align-items: center;
-  width: 100%;
-  padding: 20px 15px;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  text-align: center;
-  background: #ffffff;
-  font-size: 12px;
-  box-sizing: border-box;
-}
-.foodInfoContainer2 ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.foodInfoContainer2 ul li a:hover {
-  color: #2EB3D1;
-}
-.foodInfoContainer2 ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.foodInfoContainer2 ul li:last-child {
-  border-right: none;
-}
-.foodInfoContainer2 .buttonBox {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 13px;
-  font-weight: 700;
-  margin-top: 0px;
-}
-.foodInfoContainer2 .buttonBox .left {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.foodInfoContainer2 .buttonBox .left:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.foodInfoContainer2 .buttonBox .right {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.foodInfoContainer2 .buttonBox .right:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.foodInfoContainer2 .extraInfo {
-  font-size: 18px;
-  margin: 30px auto;
-}
-.foodInfoContainer2 .extraInfo p {
-  margin-bottom: 30px;
-}
+  width: 100%; }
+  .foodInfoContainer2 .dateBox {
+    display: flex;
+    align-items: center; }
+    .foodInfoContainer2 .dateBox .date {
+      margin: 0 10px;
+      font-size: 16px;
+      font-weight: 700; }
+  .foodInfoContainer2 ul {
+    display: block;
+    border-bottom: 1px solid #ccc; }
+    .foodInfoContainer2 ul .head {
+      background: #666666;
+      color: #ffffff;
+      font-size: 18px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px; }
+    .foodInfoContainer2 ul li {
+      display: block;
+      align-items: center;
+      width: 100%;
+      padding: 20px 15px;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      text-align: center;
+      background: #ffffff;
+      font-size: 12px;
+      box-sizing: border-box; }
+      .foodInfoContainer2 ul li a {
+        color: #000000;
+        text-decoration: underline; }
+        .foodInfoContainer2 ul li a:hover {
+          color: #2EB3D1; }
+      .foodInfoContainer2 ul li .checkBox {
+        border: 1px solid #C5CBD4;
+        width: 20px;
+        height: 20px; }
+        .foodInfoContainer2 ul li .checkBox:checked {
+          background: #2EB3D1; }
+      .foodInfoContainer2 ul li:last-child {
+        border-right: none; }
+  .foodInfoContainer2 .buttonBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px; }
+    .foodInfoContainer2 .buttonBox .left {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer2 .buttonBox .left:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .foodInfoContainer2 .buttonBox .right {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer2 .buttonBox .right:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .foodInfoContainer2 .extraInfo {
+    font-size: 18px;
+    margin: 30px auto; }
+    .foodInfoContainer2 .extraInfo p {
+      margin-bottom: 30px; }
 
 /*//식단2*/
 /*식단 팝업*/
@@ -959,209 +814,182 @@ select, input {
   background: rgba(0, 0, 0, 0.8);
   z-index: 9999999999;
   position: fixed;
-  top: 0;
-}
-.popup .inputFile {
-  width: 0.1px;
-  height: 0.1px;
-  opacity: 0;
-  overflow: hidden;
-}
-.popup .box {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  background-color: #fff;
-  padding: 40px;
-  box-sizing: border-box;
-}
-.popup .box .optionList h1 {
-  font-size: 16px;
-  font-weight: 700;
-}
-.popup .box .optionList p {
-  font-size: 15px;
-  text-align: center;
-}
-.popup .box .optionList ul {
-  display: flex;
-  margin-top: 20px;
-}
-.popup .box .optionList ul li {
-  width: 100px;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #E3E9ED;
-  border-radius: 30px;
-  font-size: 16px;
-  font-weight: 700;
-  margin-right: 20px;
-}
-.popup .box .optionList ul li:last-child {
-  margin-right: 0;
-}
-.popup .box .optionList ul .selected {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.popup .box .bookLogoBox {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 50px;
-}
-.popup .agreementTextBox {
-  font-size: 12px;
-  width: 100%;
-  margin-top: 15px;
-  padding: 10px;
-}
-.popup .checkBoxSection {
-  padding-top: 15px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-}
-.popup .checkBoxSection .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
+  top: 0; }
+  .popup .inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    display: none; }
+  .popup .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box; }
+    .popup .box .optionList h1 {
+      font-size: 16px;
+      font-weight: 700; }
+    .popup .box .optionList p {
+      font-size: 15px;
+      text-align: center; }
+    .popup .box .optionList ul {
+      display: flex;
+      margin-top: 20px; }
+      .popup .box .optionList ul li {
+        width: 100px;
+        padding: 15px 0;
+        text-align: center;
+        border: 1px solid #E3E9ED;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 20px; }
+        .popup .box .optionList ul li:last-child {
+          margin-right: 0; }
+      .popup .box .optionList ul .selected {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .popup .box .bookLogoBox {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 50px; }
+  .popup .agreementTextBox {
+    font-size: 12px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px; }
+  .popup .checkBoxSection {
+    padding-top: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center; }
+    .popup .checkBoxSection .checkBox {
+      border: 1px solid #C5CBD4;
+      width: 20px;
+      height: 20px; }
+      .popup .checkBoxSection .checkBox:checked {
+        background: #2EB3D1; }
 
 /*//식단 팝업*/
 /*식단*/
 .foodInfoContainer {
   width: 100%;
-  max-width: 1100px;
-}
-.foodInfoContainer .box {
-  background: #fff;
-  padding: 30px;
-  text-align: center;
-  box-sizing: border-box;
-}
-.foodInfoContainer .pagination {
-  font-size: 12px;
-  padding-top: 30px;
-  text-align: center;
-}
-.foodInfoContainer .pagination a {
-  color: #000000;
-  text-decoration: underline;
-}
-.foodInfoContainer .buttonBox {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 13px;
-  font-weight: 700;
-  margin-top: 0px;
-}
-.foodInfoContainer .buttonBox a {
-  color: #000000;
-}
-.foodInfoContainer .buttonBox .left {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  color: #000;
-  margin-right: 30px;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.foodInfoContainer .buttonBox .left:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.foodInfoContainer .buttonBox .right {
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background: #000;
-  border: 1px solid #000;
-  color: #fff;
-  transition: all 0.2s ease-in-out;
-  border-radius: 50px;
-}
-.foodInfoContainer .buttonBox .right:hover {
-  background: #2EB3D1;
-  border: 1px solid #2EB3D1;
-  color: #fff;
-}
-.foodInfoContainer ul {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-}
-.foodInfoContainer ul .head {
-  background: #666666;
-  color: #ffffff;
-  font-size: 12px;
-  border-right: 1px solid #333;
-  margin: 0;
-  padding: 15px;
-}
-.foodInfoContainer ul li {
-  display: flex;
-  align-items: flex-start;
-  width: 100%;
-  padding: 0 15px;
-  margin: 20px 0;
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background: #ffffff;
-  font-size: 12px;
-}
-.foodInfoContainer ul li a {
-  color: #000000;
-  text-decoration: underline;
-}
-.foodInfoContainer ul li a:hover {
-  color: #2EB3D1;
-}
-.foodInfoContainer ul li .checkBox {
-  border: 1px solid #C5CBD4;
-  width: 20px;
-  height: 20px;
-}
-.foodInfoContainer ul li:last-child {
-  border-right: none;
-}
+  max-width: 1100px; }
+  .foodInfoContainer .box {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box; }
+  .foodInfoContainer .pagination {
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center; }
+    .foodInfoContainer .pagination a {
+      color: #000000;
+      text-decoration: underline; }
+  .foodInfoContainer .buttonBox {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px; }
+    .foodInfoContainer .buttonBox a {
+      color: #000000; }
+    .foodInfoContainer .buttonBox .left {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      border: 1px solid #000;
+      color: #000;
+      margin-right: 30px;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer .buttonBox .left:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+    .foodInfoContainer .buttonBox .right {
+      padding: 15px 40px;
+      box-sizing: border-box;
+      background: #000;
+      border: 1px solid #000;
+      color: #fff;
+      transition: all .2s ease-in-out;
+      border-radius: 50px; }
+      .foodInfoContainer .buttonBox .right:hover {
+        background: #2EB3D1;
+        border: 1px solid #2EB3D1;
+        color: #fff; }
+  .foodInfoContainer ul {
+    display: flex;
+    border-bottom: 1px solid #ccc; }
+    .foodInfoContainer ul .head {
+      background: #666666;
+      color: #ffffff;
+      font-size: 12px;
+      border-right: 1px solid #333;
+      margin: 0;
+      padding: 15px; }
+    .foodInfoContainer ul li {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      background: #ffffff;
+      font-size: 12px; }
+      .foodInfoContainer ul li a {
+        color: #000000;
+        text-decoration: underline; }
+        .foodInfoContainer ul li a:hover {
+          color: #2EB3D1; }
+      .foodInfoContainer ul li .checkBox {
+        border: 1px solid #C5CBD4;
+        width: 20px;
+        height: 20px; }
+        .foodInfoContainer ul li .checkBox:checked {
+          background: #2EB3D1; }
+      .foodInfoContainer ul li:last-child {
+        border-right: none; }
 
 .foodInfo {
-  width: 100%;
-}
-.foodInfo ul {
-  display: block;
-  margin-top: 15px;
-}
-.foodInfo ul:first-child {
-  margin-top: 0;
-}
-.foodInfo ul:last-child {
-  border-bottom: 0;
-}
-.foodInfo ul li {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  border-right: none;
-  margin-bottom: 15px;
-  margin-top: 0;
-}
-.foodInfo ul li h1 {
-  font-size: 12px;
-}
-.foodInfo ul li p {
-  font-size: 12px;
-  margin-bottom: 5px;
-}
-.foodInfo ul li p:last-child {
-  margin-bottom: 0;
-}
+  width: 100%; }
+  .foodInfo ul {
+    display: block;
+    margin-top: 15px; }
+    .foodInfo ul:first-child {
+      margin-top: 0; }
+    .foodInfo ul:last-child {
+      border-bottom: 0; }
+    .foodInfo ul li {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border-right: none;
+      margin-bottom: 15px;
+      margin-top: 0; }
+  .foodInfo h1 {
+    font-size: 12px; }
+  .foodInfo p {
+    font-size: 12px;
+    margin-bottom: 5px; }
+    .foodInfo p:last-child {
+      margin-bottom: 0; }
 
 /*//식단*/
+/*엑셀파일*/
+.excelFileList a {
+  color: #000000;
+  text-decoration: underline; }
+
+/*//엑셀파일*/
 
 /*# sourceMappingURL=style.css.map */
