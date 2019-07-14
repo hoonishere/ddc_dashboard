@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DDC 대시보드</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+</head>
+<body>
+<!--wrapper-->
+<div class="wrapper">
+    <!--사이드 메뉴-->
+    <div class="sideMenuContainer">
+        <!--로고-->
+        <div class="logo">
+            <img src="img/logo_ex.svg"/>
+            <div class="divider"></div>
+            서울시청
+        </div>
+        <!--//로고-->
+        <!--메뉴-->
+        <ul>
+            <li>
+                <img src="img/ico1_selected.svg">
+                <span class="selected">조회</span>
+            </li>
+            <div class="subMenu">
+                <ul>
+                    <li class="selected">
+                        데이터 조회
+                    </li>
+                    <li>
+                        리스트 조회
+                    </li>
+                </ul>
+            </div>
+            <li>
+                <img src="img/ico2.svg">
+                <span>비교/통계</span>
+            </li>
+            <li>
+                <img src="img/ico3.svg">
+                <span>식단</span>
+            </li>
+            <li>
+                <img src="img/ico4.svg">
+                <span>관리</span>
+            </li>
+            <li>
+                <img src="img/ico5.svg">
+                <span>설정</span>
+            </li>
+        </ul>
+        <!--//메뉴-->
+        <!--로그인 박스-->
+        <div class="loginBox">
+            로그인
+        </div>
+        <!--//로그인 박스-->
+    </div>
+    <!--//사이드 메뉴-->
+    <!--콘텐츠-->
+    <div class="mainContentContainer">
+        <!--헤드텍스트-->
+        <div class="headText">
+            <div class="left displayBlock width30">
+                <div class="displayFlex">
+                    영양정보
+                </div>
+            </div>
+            <div class="right width70">
+                <div class="childrenListSortingBox displayFlex alignItemsCenter marginTop15">
+                    <!--left-->
+                    <div class="left box-1">
+                        <!--반-->
+                        <select class="selectBox marginRight30">
+                            <option>주간</option>
+                        </select>
+                        <!--//반-->
+                        <!--반-->
+                        <select class="selectBox marginRight30">
+                            <option>반 이름</option>
+                        </select>
+                        <!--//반-->
+                    </div>
+                    <!--//left-->
+                    <!--right-->
+                    <div class="right">
+                        <div class="dateBox displayFlex alignItemsCenter">
+                            <img src="img/left_arrow_ico.svg">
+                            <span class="date paddingHorizontal20">2019.04</span>
+                            <img src="img/right_arrow_ico.svg">
+                        </div>
+                    </div>
+                    <!--//right-->
+                </div>
+            </div>
+        </div>
+        <!--//헤드텍스트-->
+        <!--데이터-->
+        <div class="foodInfoContainer">
+            <div class="box box-1 marginBottom30">
+                <div class="displayFlex marginBottom20">
+                    <div class="width50 displayFlex alignItemsCenter">
+                        <h1 style="font-size: 18px; text-align: left">
+                            OO반 4월 식단
+                        </h1>
+                    </div>
+                    <!--버튼-->
+                    <div class="buttonBox">
+                        <a href="#">
+                            <div class="left">
+                                식단 등록
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="right">
+                                엑셀로 내보내기
+                            </div>
+                        </a>
+                    </div>
+                    <!--//버튼-->
+                </div>
+                <!--1주_head-->
+                <ul>
+                    <li class="head">
+                        요일
+                        <br>
+                        04/01
+                    </li>
+                    <li class="head">
+                        월
+                        <br>
+                        04/02
+                    </li>
+                    <li class="head">
+                        화
+                        <br>
+                        04/03
+                    </li>
+                    <li class="head">
+                        수
+                        <br>
+                        04/04
+                    </li>
+                    <li class="head">
+                        목
+                        <br>
+                        04/05
+                    </li>
+                    <li class="head">
+                        금
+                        <br>
+                        04/06
+                    </li>
+                    <li class="head">
+                        토
+                        <br>
+                        04/07
+                    </li>
+                    <li class="head">
+                        일
+                        <br>
+                        04/08
+                    </li>
+                </ul>
+                <!--//1주_head-->
+                <!--1주_내용-->
+                <ul>
+                    <li>
+                        <!--음식 정보-->
+                        <div class="foodInfo">
+                            <!--염도-->
+                            <ul>
+                                <li class="pointColor1">
+                                    <h1>염도. 5%</h1>
+                                </li>
+                            </ul>
+                            <!--//염도-->
+                            <ul>
+                                <li>
+                                    <h1>일반식</h1>
+                                </li>
+                                <li>
+                                    <p>- 식단 1</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h1>이유식</h1>
+                                </li>
+                                <li>
+                                    <p>- 식단 1</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h1>저녁식</h1>
+                                </li>
+                                <li>
+                                    <p>- 식단 1</p>
+                                </li>
+                            </ul>
+                            <!--06192019 비고-->
+                            <ul>
+                                <li>
+                                    <h1>비고.</h1>
+                                </li>
+                                <li>
+                                    <p>비고 내용</p>
+                                </li>
+                            </ul>
+                            <!--06192019 비고-->
+                        </div>
+                        <!--//음식 정보-->
+                    </li>
+                    <li>
+                        <!--음식 정보-->
+                        <div class="foodInfo">
+                            <!--염도-->
+                            <ul>
+                                <li class="pointColor1">
+                                    <h1>염도. 5%</h1>
+                                </li>
+                            </ul>
+                            <!--//염도-->
+                            <ul>
+                                <li>
+                                    <h1>일반식</h1>
+                                </li>
+                                <li>
+                                    <p>- 식단 1</p>
+                                    <p>- 식단 2</p>
+                                    <p>- 식단 3</p>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h1>저녁식</h1>
+                                </li>
+                                <li>
+                                    <p>- 식단 1</p>
+                                </li>
+                            </ul>
+                            <!--06192019 비고-->
+                            <ul>
+                                <li>
+                                    <h1>비고.</h1>
+                                </li>
+                                <li>
+                                    <p>비고 내용</p>
+                                </li>
+                            </ul>
+                            <!--06192019 비고-->
+                        </div>
+                        <!--//음식 정보-->
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                </ul>
+                <!--////1주_내용-->
+                <!--1주_등록 수정 버튼-->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                </ul>
+                <!--//1주_등록 수정 버튼-->
+                <!--2주_head-->
+                <ul>
+                    <li class="head">
+                        요일
+                        <br>
+                        04/09
+                    </li>
+                    <li class="head">
+                        월
+                        <br>
+                        04/10
+                    </li>
+                    <li class="head">
+                        화
+                        <br>
+                        04/11
+                    </li>
+                    <li class="head">
+                        수
+                        <br>
+                        04/12
+                    </li>
+                    <li class="head">
+                        목
+                        <br>
+                        04/13
+                    </li>
+                    <li class="head">
+                        금
+                        <br>
+                        04/14
+                    </li>
+                    <li class="head">
+                        토
+                        <br>
+                        04/15
+                    </li>
+                    <li class="head">
+                        일
+                        <br>
+                        04/16
+                    </li>
+                </ul>
+                <!--//2주_head-->
+                <!--2주_내용-->
+                <ul>
+                    <li>
+                        <a href="#">
+                            보기
+                        </a>
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                </ul>
+                <!--////2주_내용-->
+                <!--2주_등록 수정 버튼-->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                </ul>
+                <!--//2주_등록 수정 버튼-->
+                <!--3주_head-->
+                <ul>
+                    <li class="head">
+                        요일
+                        <br>
+                        04/17
+                    </li>
+                    <li class="head">
+                        월
+                        <br>
+                        04/18
+                    </li>
+                    <li class="head">
+                        화
+                        <br>
+                        04/19
+                    </li>
+                    <li class="head">
+                        수
+                        <br>
+                        04/20
+                    </li>
+                    <li class="head">
+                        목
+                        <br>
+                        04/21
+                    </li>
+                    <li class="head">
+                        금
+                        <br>
+                        04/22
+                    </li>
+                    <li class="head">
+                        토
+                        <br>
+                        04/23
+                    </li>
+                    <li class="head">
+                        일
+                        <br>
+                        04/24
+                    </li>
+                </ul>
+                <!--//3주_head-->
+                <!--3주_내용-->
+                <ul>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                </ul>
+                <!--////3주_내용-->
+                <!--3주_등록 수정 버튼-->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                </ul>
+                <!--//3주_등록 수정 버튼-->
+                <!--4주_head-->
+                <ul>
+                    <li class="head">
+                        요일
+                        <br>
+                        04/25
+                    </li>
+                    <li class="head">
+                        월
+                        <br>
+                        04/26
+                    </li>
+                    <li class="head">
+                        화
+                        <br>
+                        04/27
+                    </li>
+                    <li class="head">
+                        수
+                        <br>
+                        04/28
+                    </li>
+                    <li class="head">
+                        목
+                        <br>
+                        04/29
+                    </li>
+                    <li class="head">
+                        금
+                        <br>
+                        04/30
+                    </li>
+                    <li class="head">
+                        토
+                        <br>
+                        04/31
+                    </li>
+                    <li class="head">
+                        -
+                    </li>
+                </ul>
+                <!--//4주_head-->
+                <!--4주_내용-->
+                <ul>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                    <li>
+                        -
+                    </li>
+                </ul>
+                <!--////4주_내용-->
+                <!--4주_등록 수정 버튼-->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/modify_button.svg"/>
+                        </a>
+                    </li>
+                    <li>
+                        -
+                    </li>
+                </ul>
+                <!--//4주_등록 수정 버튼-->
+            </div>
+        </div>
+        <!--//데이터-->
+    </div>
+    <!--//콘텐츠-->
+</div>
+<!--//wrapper-->
+</body>
+</html>
