@@ -7,6 +7,11 @@ html,body{
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+}
+
+select::-ms-expand {
+  display: none;
 }
 
 a{
@@ -1149,7 +1154,7 @@ $black: #000000;
     }
   }
   ul{
-    display: flex;
+    display: table;
     border-bottom: 1px solid #ccc;
     .head{
       background: $gray2;
@@ -1175,17 +1180,58 @@ $black: #000000;
           background: $point-color1;
         }
       }
-      display: flex;
+      display: table-cell;
       align-items: flex-start;
-      width: 100%;
       padding: 0 15px;
       margin: 20px 0;
       justify-content: center;
       border-right: 1px solid #ccc;
       background: $white;
       font-size: 12px;
+      line-height: 20px;
+      width: 100px;
       &:last-child{
         border-right: none;
+      }
+    }
+  }
+  table{
+    width: 100%;
+    tr{
+      .head{
+        background: $gray2;
+        color: $white;
+        font-size: 12px;
+        border-right: 1px solid #333;
+        margin: 0;
+        padding: 15px;
+      }
+      .subHead{
+        background: $gray;
+        font-size: 12px;
+        border-right: 1px solid #999;
+        margin: 0;
+        padding: 15px;
+      }
+      .side{
+        vertical-align: middle;
+      }
+    }
+    td{
+      width: 12%;
+      padding: 15px;
+      margin: 20px 0;
+      justify-content: center;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background: $white;
+      font-size: 12px;
+      line-height: 20px;
+      h1{
+        font-size: 15px;
+        padding-bottom: 15px;
+      }
+      p{
       }
     }
   }
