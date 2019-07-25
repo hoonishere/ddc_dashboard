@@ -83,6 +83,10 @@
     width: 200%!important;
 }
 
+.maxWidth1100{
+    max-width: 1100px!important;
+}
+
 .alignItemsCenter{
     align-items: center;
 }
