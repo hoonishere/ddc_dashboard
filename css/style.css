@@ -1725,5 +1725,26 @@ select, input {
   border-right: none;
 }
 
+.writePageBox .checkBoxSection {
+  padding-top: 15px;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.writePageBox .checkBoxSection .checkBox {
+  border: 1px solid #C5CBD4;
+  width: 20px;
+  height: 20px;
+}
+
+.writePageBox .checkBoxSection .checkBox:checked {
+  background: #2EB3D1;
+}
+
 /*//write page*/
 /*# sourceMappingURL=style.css.map */
